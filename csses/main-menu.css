@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman";
+}
+
+
+.app {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    background-color: #edeef0;
+    size: 100%
+}
+.side-menu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 30px;
+    grid-column: 1;
+}
+.side-menu__element{
+    margin: 5px;
+    padding: 3px;
+    list-style-type: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: "Monotype Corsiva", "Times New Roman";
+}
+.side-menu :hover{
+    background-color: gray;
+}
+.side-menu :visited{
+    color: black;
+}
