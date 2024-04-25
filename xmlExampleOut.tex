@@ -1,0 +1,46 @@
+\lstset{frame=tb,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{black},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3,
+  extendedchars=false
+}
+
+\lstdefinestyle{XML}{
+  language=XML,
+  morekeywords={text,id},
+}
+
+\
+\begin{lstlisting}[style=XML,  label=lst:aggregationBinding]
+<?xml version='1.0' encoding='UTF-8'?>
+<Employee xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:Body id="124">
+    <Name>Иван</Name>
+    <Surname>Иванов</Surname>
+    <MiddleName>Иванович</MiddleName>
+    <INN>123456789012</INN>
+    <SNILS>12345678901</SNILS>
+    <Position>Сотрудник</Position>
+    <OrganizationId>126</OrganizationId>
+  </xs:Body>
+  <xs:Body id="123">
+    <Name>Иван</Name>
+    <Surname>Иванов</Surname>
+    <MiddleName>Иванович</MiddleName>
+    <INN>123456789013</INN>
+    <SNILS>12345678902</SNILS>
+    <OrganizationId>127</OrganizationId>
+  </xs:Body>
+  <CreateDateTime>2023-06-07T13:24:26.975Z</CreateDateTime>
+</Employee>
+\end{lstlisting}

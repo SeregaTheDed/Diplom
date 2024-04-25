@@ -1,0 +1,53 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+
+\bibitem{Argun:2014}
+\selectlanguageifdefined{russian}
+\BibEmph{Гупта,~Арун}. Java EE 7. Основы. [{Текст}]~/
+  Арун~Гупта. "---
+\newblock Новосибирск~: Издательство Вильямс,
+  2014.
+
+\bibitem{Shildt:2018}
+\selectlanguageifdefined{russian}
+\BibEmph{Герберт,~Шилдт}. Java. Руководство для
+  начинающих. Современные методы создания,
+  компиляции и выполнения программ на Java
+  [{Текст}]~/ Шилдт~Герберт. "---
+\newblock Новосибирск~: Издательство
+  Диалектика, 2018.
+
+\bibitem{W3C:XML}
+\selectlanguageifdefined{english}
+W3C Recommendation: Extensible Markup Language (XML) [Electronic resource].
+  "---
+\newblock Режим доступа: \BibUrl{https://www.w3.org/TR/REC-xml}
+  (online; accessed: 28.11.2008).
+
+\bibitem{Java:JAXP}
+\selectlanguageifdefined{english}
+Java API for XML Processing (JAXP) [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://docs.oracle.com/javase/8/docs/technotes/guides/xml/index.html}
+  (online; accessed: 01.12.2009).
+
+\bibitem{Str:XStream}
+\selectlanguageifdefined{english}
+About XStream [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://x-stream.github.io/}
+  (online; accessed: 20.04.2020).
+
+\bibitem{Str:SimpleXML}
+\selectlanguageifdefined{english}
+Simple XML [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://simple.sourceforge.net/}
+  (online; accessed: 20.04.2020).
+
+\end{thebibliography}

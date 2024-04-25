@@ -1,0 +1,18 @@
+\babel@toc {russian}{}\relax 
+\contentsline {chapter}{\numberline {1}Реферат}{2}{chapter.1}%
+\contentsline {chapter}{Введение}{4}{chapter*.2}%
+\contentsline {chapter}{\numberline {2}Длинное название очень длинное}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Оформление элементов текста}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Рисунки и таблицы}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Заголовки и приложения}{7}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Заголовки}{7}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Приложения}{7}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Нумерация страниц}{7}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Формулы}{8}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Рисуем с помощью TikZ}{9}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Псевдокод}{10}{chapter.6}%
+\contentsline {chapter}{Заключение}{11}{chapter*.7}%
+\contentsline {chapter}{Список литературы}{12}{chapter*.8}%
+\contentsline {chapter}{{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre }~\numberline {\CYRA }Исходный код программы на C++}{13}{appendix.A}%
+\contentsline {chapter}{{\cyrillictext \CYRP \cyrr \cyri \cyrl \cyro \cyrzh \cyre \cyrn \cyri \cyre }~\numberline {\CYRB }Исходный код программы на Python}{14}{appendix.B}%
+\contentsfinish 
