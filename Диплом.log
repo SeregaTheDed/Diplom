@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  30 APR 2024 00:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  1 MAY 2024 01:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2016,11 +2016,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 [3
 
-])
+] [4])
 \tf@toc=\write5
 \openout5 = `Р”РёРїР»РѕРј.toc'.
 
- [4] [5
+ [5] [6
 
 ]
 Overfull \hbox (21.63837pt too wide) in paragraph at lines 152--153
@@ -2028,7 +2028,7 @@ Overfull \hbox (21.63837pt too wide) in paragraph at lines 152--153
 ны раз-ра-бот-чи-кам веб-приложений,
  []
 
-[6]
+[7]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
 Overfull \hbox (20.05197pt too wide) in paragraph at lines 165--166
@@ -2036,7 +2036,7 @@ Overfull \hbox (20.05197pt too wide) in paragraph at lines 165--166
 , на-прав-лен-ной на веб-приложения,
  []
 
-[7
+[8
 
 ]
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
@@ -2053,7 +2053,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `PTMono-TLF' (encoding: T2A).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [8{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptmono
+ [9{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptmono
 _t2a.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+PTSerif-TLF on inpu
 t line 231.
@@ -2076,19 +2076,19 @@ Overfull \hbox (31.16043pt too wide) in paragraph at lines 263--264
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[9{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptserif
-_ts1.enc}]
+[10{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptseri
+f_ts1.enc}]
 Overfull \hbox (31.16043pt too wide) in paragraph at lines 309--310
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[10] [11]
+[11] [12]
 Overfull \hbox (32.14285pt too wide) in paragraph at lines 370--371
 []\T2A/PTSerif-TLF/m/n/12 (-20) Успешная инъ-ек-ция SQL мо-жет иметь се-рьез-ны
 е по-след-ствия для веб-приложений
  []
 
-[12] [13] [14] [15] [16] [17] [18]
+[13] [14] [15] [16] [17] [18] [19]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 
 Overfull \hbox (4.45575pt too wide) in paragraph at lines 558--559
@@ -2096,7 +2096,7 @@ Overfull \hbox (4.45575pt too wide) in paragraph at lines 558--559
 m/n/12 (-20) : зло-умыш-лен-ник мо-жет украсть фай-лы cookie,
  []
 
-[19
+[20
 
 ]
 Overfull \hbox (39.73155pt too wide) in paragraph at lines 586--587
@@ -2104,7 +2104,7 @@ Overfull \hbox (39.73155pt too wide) in paragraph at lines 586--587
 По-это-му раз-ра-бот-чи-ки веб-приложений
  []
 
-[20] [21] [22] [23] [24]
+[21] [22] [23] [24] [25]
 Overfull \hbox (2.10312pt too wide) in paragraph at lines 728--729
 []\T2A/PTSerif-TLF/b/n/12 (-20) Регулярное об-нов-ле-ние про-грамм-но-го обес-п
 е-че-ния: \T2A/PTSerif-TLF/m/n/12 (-20) Раз-ра-бот-чи-ки долж-
@@ -2116,13 +2116,23 @@ Overfull \hbox (4.52678pt too wide) in paragraph at lines 747--748
 им из ос-нов-ных ме-то-дов предот-
  []
 
-[25]
+[26]
 Overfull \hbox (3.85289pt too wide) in paragraph at lines 770--771
 \T2A/PTSerif-TLF/m/n/12 (-20) от-кры-тым ис-ход-ным ко-дом для те-сти-ро-ва-ния
  без-опас-но-сти веб-приложений.
  []
 
-[26] (Р”РёРїР»РѕРј.bbl [27]
+[27] [28]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
+[29
+
+] [30] [31] [32] [33]
+Overfull \hbox (5.60126pt too wide) in paragraph at lines 987--988
+\T2A/PTSerif-TLF/m/n/12 (-20) CSRF-атак с по-мо-щью middleware `django.middlewa
+re.csrf.CsrfViewMiddleware`.
+ []
+
+[34] (Р”РёРїР»РѕРј.bbl [35]
 Underfull \hbox (badness 3049) in paragraph at lines 29--33
 []\T2A/PTSerif-TLF/m/n/12 (+20) W3C Rec-om-men-da-tion: Ex-ten-si-ble Markup La
 n-guage (XML) [Elec-tron-ic re-
@@ -2140,7 +2150,7 @@ Underfull \hbox (badness 3849) in paragraph at lines 49--52
  доступа: []$\T2A/PTMono-TLF/m/n/12 https : / / simple .
  []
 
-) [28
+) [36
 
 ] (Р”РёРїР»РѕРј.aux)
  ***********
@@ -2158,31 +2168,27 @@ Package rerunfilecheck Warning: File `Р”РёРїР»РѕРј.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Р”РёРїР»РѕРј.out':
-(rerunfilecheck)             Before: 979283707CBF504B8C389B75A3DC06CC;18616
-(rerunfilecheck)             After:  DEA2A5B24347A6F35DB743CD87F2D97C;18227.
+(rerunfilecheck)             Before: 76C3855674C5290BB16172771003D573;25377
+(rerunfilecheck)             After:  81CB9B9B07C90F3AF78CD749A4A41D7E;25377.
  ) 
 Here is how much of TeX's memory you used:
- 31777 strings out of 474485
- 575235 string characters out of 5744206
+ 31833 strings out of 474485
+ 576024 string characters out of 5744206
  1953542 words of memory out of 5000000
- 53065 multiletter control sequences out of 15000+600000
- 646647 words of font info for 271 fonts, out of 8000000 for 9000
+ 53085 multiletter control sequences out of 15000+600000
+ 647095 words of font info for 273 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,6n,93p,1038b,2035s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsection.3.5.7} has been referenced but does not 
-exist, replaced by a fixed one
-
-<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF55
-F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif
-/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/p
-tserif/PTF75F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/para
-type/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1
-/paratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/
-type1/paratype/ptmono/PTM75F.pfb>
-Output written on Р”РёРїР»РѕРј.pdf (28 pages, 231390 bytes).
+<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF
+55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptser
+if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
+/ptserif/PTF75F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/pa
+ratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/paratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/font
+s/type1/paratype/ptmono/PTM75F.pfb>
+Output written on Р”РёРїР»РѕРј.pdf (36 pages, 270958 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
- 44525 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 709 PDF objects out of 1000 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 44685 words of extra memory for PDF output out of 51595 (max. 10000000)
 
