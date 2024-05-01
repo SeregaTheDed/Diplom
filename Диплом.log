@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  1 MAY 2024 01:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  2 MAY 2024 00:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2132,7 +2132,17 @@ Overfull \hbox (5.60126pt too wide) in paragraph at lines 987--988
 re.csrf.CsrfViewMiddleware`.
  []
 
-[34] (Р”РёРїР»РѕРј.bbl [35]
+[34] [35]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 5.
+[36
+
+] [37] [38] [39] [40]
+Overfull \hbox (5.96228pt too wide) in paragraph at lines 1194--1195
+[]\T2A/PTSerif-TLF/b/n/12 (-20) Nikto: \T2A/PTSerif-TLF/m/n/12 (-20) От-кры-тый
+ ска-нер уяз-ви-мо-стей, спе-ци-а-ли-зи-ру-ю-щий-ся на веб-серверах. 
+ []
+
+[41] [42] [43] (Р”РёРїР»РѕРј.bbl [44]
 Underfull \hbox (badness 3049) in paragraph at lines 29--33
 []\T2A/PTSerif-TLF/m/n/12 (+20) W3C Rec-om-men-da-tion: Ex-ten-si-ble Markup La
 n-guage (XML) [Elec-tron-ic re-
@@ -2150,7 +2160,7 @@ Underfull \hbox (badness 3849) in paragraph at lines 49--52
  доступа: []$\T2A/PTMono-TLF/m/n/12 https : / / simple .
  []
 
-) [36
+) [45
 
 ] (Р”РёРїР»РѕРј.aux)
  ***********
@@ -2168,15 +2178,15 @@ Package rerunfilecheck Warning: File `Р”РёРїР»РѕРј.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Р”РёРїР»РѕРј.out':
-(rerunfilecheck)             Before: 76C3855674C5290BB16172771003D573;25377
-(rerunfilecheck)             After:  81CB9B9B07C90F3AF78CD749A4A41D7E;25377.
+(rerunfilecheck)             Before: D3F2E75FF9BD4EFF5A79C9BB8676CCB9;32613
+(rerunfilecheck)             After:  716DC8435D42FFBC7EDD4ACB697C0D8F;32908.
  ) 
 Here is how much of TeX's memory you used:
- 31833 strings out of 474485
- 576024 string characters out of 5744206
+ 31935 strings out of 474485
+ 577488 string characters out of 5744206
  1953542 words of memory out of 5000000
- 53085 multiletter control sequences out of 15000+600000
- 647095 words of font info for 273 fonts, out of 8000000 for 9000
+ 53109 multiletter control sequences out of 15000+600000
+ 649783 words of font info for 285 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,6n,93p,1038b,2035s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF
@@ -2186,9 +2196,9 @@ if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
 ratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/paratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/font
 s/type1/paratype/ptmono/PTM75F.pfb>
-Output written on Р”РёРїР»РѕРј.pdf (36 pages, 270958 bytes).
+Output written on Р”РёРїР»РѕРј.pdf (45 pages, 321669 bytes).
 PDF statistics:
- 709 PDF objects out of 1000 (max. 8388607)
- 181 named destinations out of 1000 (max. 500000)
- 44685 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 910 PDF objects out of 1000 (max. 8388607)
+ 241 named destinations out of 1000 (max. 500000)
+ 44877 words of extra memory for PDF output out of 51595 (max. 10000000)
 
