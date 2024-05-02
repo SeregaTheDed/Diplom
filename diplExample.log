@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  28 APR 2024 20:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  3 MAY 2024 02:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2131,22 +2131,8 @@ a.enc}{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/pts
 ans_t2a.enc}] (diplExample.bbl [11
 
 ]
-Underfull \hbox (badness 3049) in paragraph at lines 29--33
-[]\T2A/PTSerif-TLF/m/n/12 (+20) W3C Rec-om-men-da-tion: Ex-ten-si-ble Markup La
-n-guage (XML) [Elec-tron-ic re-
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--40
-[]$\T2A/PTMono-TLF/m/n/12 https : / / docs . oracle . com / javase / 8 / docs /
- technotes / guides / xml /
- []
-
-
-Underfull \hbox (badness 3849) in paragraph at lines 49--52
-[]\T2A/PTSerif-TLF/m/n/12 (+20) Simple XML [Elec-tron-ic re-source]. ^^V  Режим
- доступа: []$\T2A/PTMono-TLF/m/n/12 https : / / simple .
- []
+LaTeX Warning: Empty `thebibliography' environment on input line 11.
 
 ) [12
 
@@ -2243,11 +2229,11 @@ Package rerunfilecheck Info: File `diplExample.out' has not changed.
 (rerunfilecheck)             Checksum: 625DCC58D7E3CBE8C6C8BA04AD3D0787;3082.
  ) 
 Here is how much of TeX's memory you used:
- 33643 strings out of 474485
- 625250 string characters out of 5744206
+ 33627 strings out of 474485
+ 624987 string characters out of 5744206
  1973542 words of memory out of 5000000
- 55006 multiletter control sequences out of 15000+600000
- 668905 words of font info for 219 fonts, out of 8000000 for 9000
+ 54999 multiletter control sequences out of 15000+600000
+ 668481 words of font info for 217 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,19n,93p,1108b,1522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF
@@ -2268,9 +2254,9 @@ C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss
 /cm/cmsy10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/symbols/msam10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on diplExample.pdf (14 pages, 254766 bytes).
+Output written on diplExample.pdf (14 pages, 248246 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
- 131 named destinations out of 1000 (max. 500000)
+ 368 PDF objects out of 1000 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
  67218 words of extra memory for PDF output out of 74296 (max. 10000000)
 
