@@ -96,7 +96,7 @@
 	\Napr{по направлению\\ 10.03.01 Информационная безопасность}
 	
 	% Руководитель
-	\Chief{Научный руководитель\\ к.\,ф.-м.\,н., доцент}{~Власова О.\,В.}
+	\Chief{Научный руководитель\\ старший преподаватель}{~Власова О.\,В.}
 	
 	% Автор
 	\Author{Студент группы ИБ-41БО}{С.\,И.~Штанько}
@@ -107,7 +107,7 @@
 	
 	% Создаем титульный лист
 	\maketitle
-	\chapter{Реферат}
+	\textbf{Реферат}
 	
 	Объем \total{page} с., \total{chapternum} гл., \total{fignum} рис.,
 	\total{tablenum} табл., \total{bibnum} источников, \total{appnum} прил.
@@ -235,16 +235,16 @@ WHERE username = '' OR '1'='1' --' AND password = '$password';
 	
 	\textbf{Пример 2 (Извлечение данных):}\\
 	Предположим, приложение использует следующий запрос для поиска товара по его названию:
-	\begin{lstlisting}[ language=SQL, deletekeywords={IDENTITY},deletekeywords={[2]INT},morekeywords={clustered},framesep=8pt,xleftmargin=40pt,framexleftmargin=40pt,frame=tb,framerule=0pt]		
+	\begin{lstlisting}[ language=SQL, deletekeywords={IDENTITY},deletekeywords={[2]INT},morekeywords={clustered},framesep=8pt,xleftmargin=40pt,framexleftmargin=40pt,frame=tb,framerule=0pt]    
 SELECT * FROM products 
 WHERE name LIKE '%$search_term%';
-	\end{lstlisting}	
-	Злоумышленник может ввести в поле поиска значение `'; SELECT * FROM users; --` .  В результате получится следующий запрос: 
-	\begin{lstlisting}[ language=SQL, deletekeywords={IDENTITY},deletekeywords={[2]INT},morekeywords={clustered},framesep=8pt,xleftmargin=40pt,framexleftmargin=40pt,frame=tb,framerule=0pt]		
+	\end{lstlisting}  
+	Злоумышленник может ввести в поле поиска значение ``' OR 1=1; - -`` . В результате получится следующий запрос: 
+	\begin{lstlisting}[ language=SQL, deletekeywords={IDENTITY},deletekeywords={[2]INT},morekeywords={clustered},framesep=8pt,xleftmargin=40pt,framexleftmargin=40pt,frame=tb,framerule=0pt]    
 SELECT * FROM products 
-WHERE name LIKE '%; SELECT * FROM users; --%'; 
-	\end{lstlisting}	
-	Этот запрос сначала выполнит поиск по таблице `products`, а затем извлечет все записи из таблицы `users`, предоставив злоумышленнику доступ к информации о пользователях.
+WHERE name LIKE '%' OR 1=1; --%'; 
+	\end{lstlisting}  
+	В данном случае условие WHERE всегда будет истинным (1=1), что приведет к извлечению всех записей из таблицы products, независимо от значения name. Злоумышленник может получить доступ к информации о всех товарах, даже если у него нет разрешения на это.
 	
 	\textbf{Пример 3 (Модификация данных):}\\
 	Предположим, приложение использует следующий запрос для обновления профиля пользователя:
@@ -263,7 +263,7 @@ UPDATE users SET isAdmin = 1
 WHERE username = 'attacker'; --' WHERE username = '$username';
 	\end{lstlisting}
 	
-	Этот запрос сначала обновит email пользователя, а затем установит флаг `isAdmin` для пользователя `attacker`,  предоставив ему права администратора. 
+	Этот запрос сначала обновит email для всех пользователей, а затем установит флаг `isAdmin` для пользователя `attacker`,  предоставив ему права администратора. 
 	Примеры инъекций SQL наглядно демонстрируют опасность данного типа атак и необходимость принятия мер для их предотвращения.
 	
 	
@@ -279,7 +279,7 @@ WHERE username = 'attacker'; --' WHERE username = '$username';
 	
 	\subsection{Недостаточная валидация и фильтрация пользовательского ввода}
 	
-	Основная причина уязвимости к инъекциям SQL - недостаточная проверка и фильтрация данных, вводимых пользователем.  Приложения часто предполагают, что пользователи будут вводить только корректные и ожидаемые данные,  но злоумышленники могут использовать специальные символы и конструкции SQL-языка, чтобы изменить логику запросов к базе данных.  
+	Основная причина уязвимости к инъекциям SQL - недостаточная проверка и фильтрация данных, вводимых пользователем.  При создании прилоложений часто предполагается, что пользователи будут вводить только корректные и ожидаемые данные,  но злоумышленники могут использовать специальные символы и конструкции SQL-языка, чтобы изменить логику запросов к базе данных.  
 	
 	\textbf{Примеры недостаточной валидации:}
 	
