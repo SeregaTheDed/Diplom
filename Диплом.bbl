@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\language\csname l@#1\endcsname\fi}
@@ -7,5 +7,146 @@
 \providecommand*{\BibUrl}[1]{\url{#1}}
 \providecommand{\BibAnnote}[1]{}
 \providecommand*{\BibEmph}[1]{#1}
+
+\bibitem{2015_TalkTalk_data_breach}
+\selectlanguageifdefined{english}
+2015 TalkTalk data breach [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://en.wikipedia.org/wiki/2015_TalkTalk_data_breach} (online;
+  accessed: 04.05.2024).
+
+\bibitem{2020_freepik_data_breach}
+\selectlanguageifdefined{russian}
+Хакеры похитили данные 8 300 000 пользователей
+  Freepik с помощью SQL-инъекции [{Электронный
+  ресурс}]. "---
+\newblock Режим доступа:
+  \BibUrl{https://xakep.ru/2020/08/24/freepik/} ({дата обращения}:
+  04.05.2024).
+
+\bibitem{FindBugs_tool}
+\selectlanguageifdefined{english}
+FindBugs™ - Find Bugs in Java Programs [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://findbugs.sourceforge.net/}
+  (online; accessed: 04.05.2024).
+
+\bibitem{Yasca_tool}
+\selectlanguageifdefined{english}
+Yasca - Yet Another Source Code Analyzer [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://scovetta.github.io/yasca/}
+  (online; accessed: 04.05.2024).
+
+\bibitem{SonarQube_tool}
+\selectlanguageifdefined{english}
+clean code for teams and enterprises with {SonarQube} [Electronic resource].
+  "---
+\newblock Режим доступа:
+  \BibUrl{https://www.sonarsource.com/products/sonarqube/} (online; accessed:
+  04.05.2024).
+
+\bibitem{ZAP_habr}
+\selectlanguageifdefined{russian}
+Обзор OWASP ZAP. Сканер для поиска уязвимостей
+  в веб-приложениях [{Электронный ресурс}].
+  "---
+\newblock Режим доступа:
+  \BibUrl{https://habr.com/ru/companies/first/articles/709586/} ({дата
+  обращения}: 04.05.2024).
+
+\bibitem{ZAP_tool}
+\selectlanguageifdefined{english}
+Zed Attack Proxy (ZAP) [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://www.zaproxy.org/} (online;
+  accessed: 04.05.2024).
+
+\bibitem{Burp_Suite_habr}
+\selectlanguageifdefined{russian}
+Burp Suite: швейцарский армейский нож для
+  тестирования веб-приложений [{Электронный
+  ресурс}]. "---
+\newblock Режим доступа:
+  \BibUrl{https://habr.com/ru/articles/328382/} ({дата обращения}:
+  04.05.2024).
+
+\bibitem{Burp_Suite_tool}
+\selectlanguageifdefined{english}
+Burp Suite Community Edition [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://www.zaproxy.org/} (online;
+  accessed: 04.05.2024).
+
+\bibitem{XSS_Hunter_tool}
+\selectlanguageifdefined{english}
+XSS Hunter Express [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://github.com/mandatoryprogrammer/xsshunter-express} (online;
+  accessed: 04.05.2024).
+
+\bibitem{Facebook_attack}
+\selectlanguageifdefined{russian}
+Facebook грозит 1,5-миллиардный штраф за утечку
+  данных 50 млн пользователей [{Электронный
+  ресурс}]. "---
+\newblock Режим доступа:
+  \BibUrl{https://safe.cnews.ru/news/top/2018-10-01_facebook_grozit_milliardnyj_shtraf_za_utechku_dannyh}
+  ({дата обращения}: 04.05.2024).
+
+\bibitem{Marriott_International_attack}
+\selectlanguageifdefined{russian}
+Крупнейшая в мире сеть отелей сообщила об
+  утечке данных 500 млн клиентов
+  [{Электронный ресурс}]. "---
+\newblock Режим доступа:
+  \BibUrl{https://www.vedomosti.ru/business/articles/2018/11/30/788043-krupneishaya-mire}
+  ({дата обращения}: 04.05.2024).
+
+\bibitem{SolarWinds_attack}
+\selectlanguageifdefined{russian}
+Взлом года. Всё, что известно о
+  компрометации SolarWinds на данный момент
+  [{Электронный ресурс}]. "---
+\newblock Режим доступа:
+  \BibUrl{https://xakep.ru/2020/12/23/solarwinds/} ({дата
+  обращения}: 04.05.2024).
+
+\bibitem{OpenSSL_anti_attack}
+\selectlanguageifdefined{russian}
+Уязвимость Heartbleed в библиотеке OpenSSL ставит
+  SSL защиту под угрозу! [{Электронный
+  ресурс}]. "---
+\newblock Режим доступа:
+  \BibUrl{https://www.emaro-ssl.ru/blog/2/heartbleed/} ({дата
+  обращения}: 04.05.2024).
+
+\bibitem{Github_anti_attack}
+\selectlanguageifdefined{english}
+February 28th DDoS Incident Report [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://github.blog/2018-03-01-ddos-incident-report/} (online;
+  accessed: 04.05.2024).
+
+\bibitem{Cloudflare_anti_attack_1}
+\selectlanguageifdefined{russian}
+У Cloudflare новый план борьбы с ботами и
+  изменением климата [{Электронный ресурс}].
+  "---
+\newblock Режим доступа: \BibUrl{https://habr.com/ru/news/468717}
+  ({дата обращения}: 04.05.2024).
+
+\bibitem{Cloudflare_anti_attack_2}
+\selectlanguageifdefined{russian}
+Cloudflare отразила рекордную DDoS-атаку
+  мощностью 26 млн запросов в секунду
+  [{Электронный ресурс}]. "---
+\newblock Режим доступа:
+  \BibUrl{https://xakep.ru/2022/06/14/26-mln-rps/} ({дата
+  обращения}: 04.05.2024).
+
+\bibitem{Shopify_anti_attack}
+\selectlanguageifdefined{english}
+Shopify Data Breach – Two Rogue Employees Stole Customer Data [Electronic
+  resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://gbhackers.com/shopify-data-breach/} (online; accessed:
+  04.05.2024).
 
 \end{thebibliography}

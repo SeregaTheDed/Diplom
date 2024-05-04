@@ -86,12 +86,11 @@
 \contentsline {section}{\numberline {4.2}Примеры и последствия этих уязвимостей}{39}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Утечка данных на Facebook (2018)}{39}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Взлом Marriott International (2018)}{40}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Утечка данных на LinkedIn (2021)}{40}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Взлом SolarWinds (2020)}{41}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Выводы}{41}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.3}Взлом SolarWinds (2020)}{40}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Выводы}{41}{subsection.4.2.4}%
 \contentsline {section}{\numberline {4.3}Методы и инструменты для обнаружения и предотвращения других уязвимостей}{41}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Сканирование уязвимостей}{42}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Тестирование на проникновение}{42}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.1}Сканирование уязвимостей}{41}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Тестирование на проникновение}{41}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Анализ исходного кода}{42}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}Обзор безопасности}{42}{subsection.4.3.4}%
 \contentsline {subsection}{\numberline {4.3.5}Методы предотвращения уязвимостей}{42}{subsection.4.3.5}%
@@ -99,8 +98,8 @@
 \contentsline {section}{\numberline {4.4}Рекомендации для обеспечения общей безопасности веб-приложений}{43}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Управление уязвимостями}{44}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Аутентификация и авторизация}{44}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Защита от вредоносного ПО}{45}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Мониторинг и ведение журналов}{45}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.3}Защита от вредоносного ПО}{44}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Мониторинг и ведение журналов}{44}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}Резервное копирование и восстановление}{45}{subsection.4.4.5}%
 \contentsline {chapter}{\numberline {5}Конкретные случаи и анализ приложений}{46}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Анализ конкретных случаев уязвимостей веб-приложений}{46}{section.5.1}%

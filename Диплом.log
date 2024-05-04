@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  4 MAY 2024 21:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  5 MAY 2024 00:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2119,6 +2119,12 @@ Overfull \hbox (3.85289pt too wide) in paragraph at lines 770--771
  без-опас-но-сти веб-приложений.
  []
 
+
+Overfull \hbox (9.63152pt too wide) in paragraph at lines 771--772
+\T2A/PTSerif-TLF/m/n/12 (-20) для те-сти-ро-ва-ния без-опас-но-сти, вклю-чая об
+-на-ру-же-ние XSS-уязвимостей.[[]][[]] 
+ []
+
 [28] [29]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 [30
@@ -2133,16 +2139,16 @@ re.csrf.CsrfViewMiddleware`.
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
 [37
 
-] [38] [39] [40] [41]
-Overfull \hbox (5.96228pt too wide) in paragraph at lines 1194--1195
+] [38] [39] [40]
+Overfull \hbox (5.96228pt too wide) in paragraph at lines 1182--1183
 []\T2A/PTSerif-TLF/b/n/12 (-20) Nikto: \T2A/PTSerif-TLF/m/n/12 (-20) От-кры-тый
  ска-нер уяз-ви-мо-стей, спе-ци-а-ли-зи-ру-ю-щий-ся на веб-серверах. 
  []
 
-[42] [43] [44] [45]
+[41] [42] [43] [44] [45]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 5.
 
-Overfull \hbox (17.71504pt too wide) in paragraph at lines 1329--1329
+Overfull \hbox (17.71504pt too wide) in paragraph at lines 1317--1317
 |[]\T2A/PTSerif-TLF/b/n/14.4 (-20) Анализ кон-крет-ных слу-ча-ев уяз-ви-мо-стей
  веб-приложений| 
  []
@@ -2150,12 +2156,68 @@ Overfull \hbox (17.71504pt too wide) in paragraph at lines 1329--1329
 [46
 
 ] [47] [48] [49] [50] (Р”РёРїР»РѕРј.bbl [51]
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+[]\T2A/PTSerif-TLF/m/n/12 (+20) 2015 Talk-Talk da-ta breach [Elec-tron-ic re-so
+urce]. ^^V  Режим доступа:
+ []
 
-LaTeX Warning: Empty `thebibliography' environment on input line 11.
 
-) [52
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+[]$\T2A/PTMono-TLF/m/n/12 https : / / en . wikipedia . org / wiki / 2015 _ Talk
+Talk _ data _ breach$[]
+ []
 
-] (Р”РёРїР»РѕРј.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--70
+\T2A/PTSerif-TLF/m/n/12 (+20) [Элек-трон-ный ре-сурс]. ^^V  Ре-жим до-сту-па: [
+]$\T2A/PTMono-TLF/m/n/12 https : / / habr . com / ru /
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 79--83
+[]\T2A/PTSerif-TLF/m/n/12 (+20) XSS Hunter Ex-press [Elec-tron-ic re-source]. ^
+^V  Режим доступа: []$\T2A/PTMono-TLF/m/n/12 https :
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 86--92
+[]\T2A/PTSerif-TLF/m/n/12 (+20) Facebook гро-зит 1,5-миллиардный штраф за утеч-
+ку дан-ных 50 млн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
+\T2A/PTSerif-TLF/m/n/12 (+20) поль-зо-ва-те-лей [Элек-трон-ный ре-сурс]. ^^V  Р
+е-жим до-сту-па: []$\T2A/PTMono-TLF/m/n/12 https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--92
+\T2A/PTMono-TLF/m/n/12 / / safe . cnews . ru / news / top / 2018-[]10-[]01 _ fa
+cebook _ grozit _
+ []
+
+[52
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
+[]$\T2A/PTMono-TLF/m/n/12 https : / / github . blog / 2018-[]03-[]01-[]ddos-[]i
+ncident-[]report/$[] \T2A/PTSerif-TLF/m/n/12 (+20) (on-line;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--151
+[]\T2A/PTSerif-TLF/m/n/12 (+20) Shopify Da-ta Breach ^^U Two Rogue Em-ploy-ees 
+Stole Cus-tomer Da-ta
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--151
+\T2A/PTSerif-TLF/m/n/12 (+20) [Elec-tron-ic re-source]. ^^V  Режим доступа: []$
+\T2A/PTMono-TLF/m/n/12 https : / / gbhackers . com /
+ []
+
+) [53] (Р”РёРїР»РѕРј.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -2166,16 +2228,16 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 Package rerunfilecheck Info: File `Р”РёРїР»РѕРј.out' has not changed.
-(rerunfilecheck)             Checksum: BE07BA4BD83BE04383D724968D8B7E87;39287.
+(rerunfilecheck)             Checksum: DFC9A9B10088DCCDAF57A8CC25071EA1;39004.
  ) 
 Here is how much of TeX's memory you used:
- 31977 strings out of 474485
- 578053 string characters out of 5744206
+ 32012 strings out of 474485
+ 578822 string characters out of 5744206
  1953542 words of memory out of 5000000
- 53120 multiletter control sequences out of 15000+600000
- 650231 words of font info for 287 fonts, out of 8000000 for 9000
+ 53139 multiletter control sequences out of 15000+600000
+ 650273 words of font info for 288 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,93p,1131b,2035s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,6n,93p,1160b,2035s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF
 55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptser
 if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
@@ -2183,9 +2245,9 @@ if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
 ratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/paratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/font
 s/type1/paratype/ptmono/PTM75F.pfb>
-Output written on Р”РёРїР»РѕРј.pdf (52 pages, 352827 bytes).
+Output written on Р”РёРїР»РѕРј.pdf (53 pages, 370992 bytes).
 PDF statistics:
- 1032 PDF objects out of 1200 (max. 8388607)
- 269 named destinations out of 1000 (max. 500000)
- 45021 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1098 PDF objects out of 1200 (max. 8388607)
+ 284 named destinations out of 1000 (max. 500000)
+ 45013 words of extra memory for PDF output out of 51595 (max. 10000000)
 
