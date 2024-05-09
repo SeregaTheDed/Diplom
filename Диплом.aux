@@ -46,118 +46,131 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.5.2}Инструменты динамического анализа приложений}{18}{subsection.1.5.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.5.3}Фаззеры}{19}{subsection.1.5.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.5.4}Техники безопасного программирования}{19}{subsection.1.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Межсайтовый скриптинг (XSS)}{21}{chapter.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.5.5}Исследование sql-инъекции на практическом примере}{20}{subsection.1.5.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Окно авторизации с введенными данными}}{20}{figure.caption.3}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:auth}{{1}{20}{Окно авторизации с введенными данными}{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Вторая страница сайта - чат}}{21}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:chat}{{2}{21}{Вторая страница сайта - чат}{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Окно авторизации с введенными данными}}{22}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:auth_sql_injection_attack}{{3}{22}{Окно авторизации с введенными данными}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Получен доступ к чату без знания пароля}}{22}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:chat_sql_injection_attack_success}{{4}{22}{Получен доступ к чату без знания пароля}{figure.caption.5}{}}
+\citation{Github_chat_site_project}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Использовав параметризованный запрос, удалось защититься от sql-инъекции}}{23}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:auth_sql_injection_defenced}{{5}{23}{Использовав параметризованный запрос, удалось защититься от sql-инъекции}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Межсайтовый скриптинг (XSS)}{24}{chapter.2}\protected@file@percent }
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}Понятие межсайтового скриптинга и его воздействие на пользователей}{21}{section.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Сущность XSS}{21}{subsection.2.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Воздействие на пользователей}{21}{subsection.2.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}Типичные сценарии XSS-атак}{22}{subsection.2.1.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Различные типы XSS-атак и их примеры}{22}{section.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Классификация по способу внедрения}{22}{subsection.2.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Классификация по контексту выполнения}{23}{subsection.2.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Риски и угрозы, связанные с XSS для веб-приложений}{24}{section.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Кража конфиденциальной информации}{24}{subsection.2.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Дефейс веб-сайта}{24}{subsection.2.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Распространение вредоносного ПО}{25}{subsection.2.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}Фишинг}{25}{subsection.2.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.5}DDoS-атаки}{25}{subsection.2.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.6}Потеря доверия пользователей}{25}{subsection.2.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Методы обнаружения и предотвращения межсайтового скриптинга}{25}{section.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Обнаружение XSS-уязвимостей}{26}{subsection.2.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Предотвращение XSS-атак}{26}{subsection.2.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.3}Дополнительные меры безопасности}{27}{subsection.2.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {2.5}Практические примеры и инструменты для защиты от XSS-атак}{27}{section.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}Примеры кодирования выходных данных}{27}{subsection.2.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Понятие межсайтового скриптинга и его воздействие на пользователей}{24}{section.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Сущность XSS}{24}{subsection.2.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}Воздействие на пользователей}{24}{subsection.2.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}Типичные сценарии XSS-атак}{25}{subsection.2.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Различные типы XSS-атак и их примеры}{25}{section.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Классификация по способу внедрения}{25}{subsection.2.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.2}Классификация по контексту выполнения}{26}{subsection.2.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Риски и угрозы, связанные с XSS для веб-приложений}{27}{section.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Кража конфиденциальной информации}{27}{subsection.2.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Дефейс веб-сайта}{27}{subsection.2.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.3}Распространение вредоносного ПО}{28}{subsection.2.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.4}Фишинг}{28}{subsection.2.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.5}DDoS-атаки}{28}{subsection.2.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.6}Потеря доверия пользователей}{28}{subsection.2.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Методы обнаружения и предотвращения межсайтового скриптинга}{28}{section.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Обнаружение XSS-уязвимостей}{29}{subsection.2.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Предотвращение XSS-атак}{29}{subsection.2.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.3}Дополнительные меры безопасности}{30}{subsection.2.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Практические примеры и инструменты для защиты от XSS-атак}{30}{section.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}Примеры кодирования выходных данных}{30}{subsection.2.5.1}\protected@file@percent }
 \citation{ZAP_habr}
 \citation{ZAP_tool}
 \citation{Burp_Suite_habr}
 \citation{Burp_Suite_tool}
 \citation{XSS_Hunter_tool}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}Использование библиотек и фреймворков с защитой от XSS}{28}{subsection.2.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}Инструменты для тестирования на уязвимости XSS}{28}{subsection.2.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.4}Content Security Policy (CSP)}{28}{subsection.2.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.5}Входная фильтрация и валидация данных}{29}{subsection.2.5.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.6}Выходная фильтрация и кодирование данных}{29}{subsection.2.5.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Подделка межсайтовых запросов (CSRF)}{30}{chapter.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}Использование библиотек и фреймворков с защитой от XSS}{31}{subsection.2.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.3}Инструменты для тестирования на уязвимости XSS}{31}{subsection.2.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.4}Content Security Policy (CSP)}{31}{subsection.2.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.5}Входная фильтрация и валидация данных}{32}{subsection.2.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5.6}Выходная фильтрация и кодирование данных}{32}{subsection.2.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Подделка межсайтовых запросов (CSRF)}{33}{chapter.3}\protected@file@percent }
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Понятие и примеры подделки межсайтовых запросов}{30}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Механизм CSRF-атаки}{30}{subsection.3.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Примеры CSRF-атак}{30}{subsection.3.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Риски и угрозы для приложений, связанные с CSRF-атаками}{31}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Кража личных данных}{31}{subsection.3.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Финансовые потери}{31}{subsection.3.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Повреждение репутации}{32}{subsection.3.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Нарушение безопасности}{32}{subsection.3.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Угроза для конфиденциальности}{33}{subsection.3.2.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Основные подходы к предотвращению CSRF-атак}{33}{section.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Использование токенов CSRF (Synchronizer Token Pattern)}{33}{subsection.3.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Использование SameSite Cookie Attribute}{33}{subsection.3.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Двойная отправка cookie (Double Submit Cookie Pattern)}{34}{subsection.3.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Проверка заголовка Referer}{34}{subsection.3.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}Дополнительные рекомендации}{34}{subsection.3.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Основные подходы и инструменты для предотвращения CSRF-атак}{35}{section.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Фреймворки веб-разработки с встроенной защитой от CSRF}{35}{subsection.3.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Инструменты для тестирования на наличие CSRF-уязвимостей}{35}{subsection.3.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Рекомендации по выбору и использованию инструментов}{36}{subsection.3.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Общие рекомендации по защите от CSRF-атак}{36}{subsection.3.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Другие уязвимости веб-приложений}{37}{chapter.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Понятие и примеры подделки межсайтовых запросов}{33}{section.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Механизм CSRF-атаки}{33}{subsection.3.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Примеры CSRF-атак}{33}{subsection.3.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Риски и угрозы для приложений, связанные с CSRF-атаками}{34}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Кража личных данных}{34}{subsection.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Финансовые потери}{34}{subsection.3.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Повреждение репутации}{35}{subsection.3.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Нарушение безопасности}{35}{subsection.3.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Угроза для конфиденциальности}{36}{subsection.3.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Основные подходы к предотвращению CSRF-атак}{36}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Использование токенов CSRF (Synchronizer Token Pattern)}{36}{subsection.3.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Использование SameSite Cookie Attribute}{36}{subsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Двойная отправка cookie (Double Submit Cookie Pattern)}{37}{subsection.3.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Проверка заголовка Referer}{37}{subsection.3.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}Дополнительные рекомендации}{37}{subsection.3.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Основные подходы и инструменты для предотвращения CSRF-атак}{38}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Фреймворки веб-разработки с встроенной защитой от CSRF}{38}{subsection.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Инструменты для тестирования на наличие CSRF-уязвимостей}{38}{subsection.3.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Рекомендации по выбору и использованию инструментов}{39}{subsection.3.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Общие рекомендации по защите от CSRF-атак}{39}{subsection.3.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Другие уязвимости веб-приложений}{40}{chapter.4}\protected@file@percent }
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Рассмотрение и обзор других основных уязвимостей}{37}{section.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Недостаточная аутентификация}{37}{subsection.4.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Утечка информации}{38}{subsection.4.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Недостаточная авторизация}{38}{subsection.4.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Рассмотрение и обзор других основных уязвимостей}{40}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Недостаточная аутентификация}{40}{subsection.4.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Утечка информации}{41}{subsection.4.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Недостаточная авторизация}{41}{subsection.4.1.3}\protected@file@percent }
 \citation{Facebook_attack}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.4}Другие уязвимости}{39}{subsection.4.1.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Примеры и последствия этих уязвимостей}{39}{section.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Утечка данных на Facebook (2018)}{39}{subsection.4.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.4}Другие уязвимости}{42}{subsection.4.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Примеры и последствия этих уязвимостей}{42}{section.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Утечка данных на Facebook (2018)}{42}{subsection.4.2.1}\protected@file@percent }
 \citation{Marriott_International_attack}
 \citation{SolarWinds_attack}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Взлом Marriott International (2018)}{40}{subsection.4.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Взлом SolarWinds (2020)}{40}{subsection.4.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Выводы}{41}{subsection.4.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Методы и инструменты для обнаружения и предотвращения других уязвимостей}{41}{section.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Сканирование уязвимостей}{41}{subsection.4.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Тестирование на проникновение}{41}{subsection.4.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Анализ исходного кода}{42}{subsection.4.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Обзор безопасности}{42}{subsection.4.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Методы предотвращения уязвимостей}{42}{subsection.4.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.6}Инструменты для предотвращения уязвимостей}{43}{subsection.4.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Рекомендации для обеспечения общей безопасности веб-приложений}{43}{section.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Управление уязвимостями}{44}{subsection.4.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Аутентификация и авторизация}{44}{subsection.4.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Защита от вредоносного ПО}{44}{subsection.4.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Мониторинг и ведение журналов}{44}{subsection.4.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.5}Резервное копирование и восстановление}{45}{subsection.4.4.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Конкретные случаи и анализ приложений}{46}{chapter.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Взлом Marriott International (2018)}{43}{subsection.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Взлом SolarWinds (2020)}{43}{subsection.4.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Выводы}{44}{subsection.4.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Методы и инструменты для обнаружения и предотвращения других уязвимостей}{44}{section.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}Сканирование уязвимостей}{44}{subsection.4.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}Тестирование на проникновение}{44}{subsection.4.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}Анализ исходного кода}{45}{subsection.4.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}Обзор безопасности}{45}{subsection.4.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}Методы предотвращения уязвимостей}{45}{subsection.4.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.6}Инструменты для предотвращения уязвимостей}{46}{subsection.4.3.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Рекомендации для обеспечения общей безопасности веб-приложений}{46}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}Управление уязвимостями}{47}{subsection.4.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}Аутентификация и авторизация}{47}{subsection.4.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}Защита от вредоносного ПО}{47}{subsection.4.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}Мониторинг и ведение журналов}{47}{subsection.4.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.5}Резервное копирование и восстановление}{48}{subsection.4.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Конкретные случаи и анализ приложений}{49}{chapter.5}\protected@file@percent }
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{loa}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Анализ конкретных случаев уязвимостей веб-приложений}{46}{section.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Инъекции SQL: Утечка данных пользователей Fortnite}{46}{subsection.5.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Межсайтовый скриптинг (XSS): Атака на Twitch}{46}{subsection.5.1.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Подделка межсайтовых запросов (CSRF): Атака на TikTok}{47}{subsection.5.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Анализ конкретных случаев уязвимостей веб-приложений}{49}{section.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Инъекции SQL: Утечка данных пользователей Fortnite}{49}{subsection.5.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Межсайтовый скриптинг (XSS): Атака на Twitch}{49}{subsection.5.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}Подделка межсайтовых запросов (CSRF): Атака на TikTok}{50}{subsection.5.1.3}\protected@file@percent }
 \citation{OpenSSL_anti_attack}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Выводы}{48}{subsection.5.1.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Анализ методов и инструментов, примененных для их обнаружения и предотвращения}{48}{section.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Примеры успешной защиты и преодоления уязвимостей}{48}{section.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.4}Выводы}{51}{subsection.5.1.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Анализ методов и инструментов, примененных для их обнаружения и предотвращения}{51}{section.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Примеры успешной защиты и преодоления уязвимостей}{51}{section.5.3}\protected@file@percent }
 \citation{Github_anti_attack}
 \citation{Cloudflare_anti_attack_1}
 \citation{Cloudflare_anti_attack_2}
 \citation{Shopify_anti_attack}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Исправление уязвимости в OpenSSL (Heartbleed)}{49}{subsection.5.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Защита от атак DDoS на GitHub}{49}{subsection.5.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Cloudflare и защита от ботнетов}{49}{subsection.5.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Shopify и предотвращение утечек данных}{49}{subsection.5.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Рекомендации для разработчиков веб-приложений и применение полученных знаний}{50}{section.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Безопасное программирование}{50}{subsection.5.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Тестирование безопасности}{50}{subsection.5.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Обучение и осведомленность}{50}{subsection.5.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Исправление уязвимости в OpenSSL (Heartbleed)}{52}{subsection.5.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.2}Защита от атак DDoS на GitHub}{52}{subsection.5.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.3}Cloudflare и защита от ботнетов}{52}{subsection.5.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.4}Shopify и предотвращение утечек данных}{52}{subsection.5.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Рекомендации для разработчиков веб-приложений и применение полученных знаний}{53}{section.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Безопасное программирование}{53}{subsection.5.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Тестирование безопасности}{53}{subsection.5.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.3}Обучение и осведомленность}{53}{subsection.5.4.3}\protected@file@percent }
 \bibstyle{ugost2003}
 \bibdata{bibliography_diplom}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.4}Применение полученных знаний}{51}{subsection.5.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.5}Заключение}{51}{subsection.5.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.4}Применение полученных знаний}{54}{subsection.5.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.5}Заключение}{54}{subsection.5.4.5}\protected@file@percent }
 \bibcite{2015_TalkTalk_data_breach}{1}
 \bibcite{2020_freepik_data_breach}{2}
 \bibcite{FindBugs_tool}{3}
@@ -170,18 +183,19 @@
 \bibcite{XSS_Hunter_tool}{10}
 \bibcite{Facebook_attack}{11}
 \bibcite{Marriott_International_attack}{12}
-\@writefile{toc}{\contentsline {chapter}{Список литературы}{52}{chapter*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Список литературы}{55}{chapter*.7}\protected@file@percent }
 \bibcite{SolarWinds_attack}{13}
 \bibcite{OpenSSL_anti_attack}{14}
 \bibcite{Github_anti_attack}{15}
 \bibcite{Cloudflare_anti_attack_1}{16}
 \bibcite{Cloudflare_anti_attack_2}{17}
 \bibcite{Shopify_anti_attack}{18}
-\expandafter\ifx\csname c@page@totc\endcsname\relax\newcounter{page@totc}\fi\setcounter{page@totc}{53}
+\bibcite{Github_chat_site_project}{19}
+\expandafter\ifx\csname c@page@totc\endcsname\relax\newcounter{page@totc}\fi\setcounter{page@totc}{56}
 \expandafter\ifx\csname c@chapternum@totc\endcsname\relax\newcounter{chapternum@totc}\fi\setcounter{chapternum@totc}{5}
 \expandafter\ifx\csname c@appnum@totc\endcsname\relax\newcounter{appnum@totc}\fi\setcounter{appnum@totc}{0}
-\expandafter\ifx\csname c@bibnum@totc\endcsname\relax\newcounter{bibnum@totc}\fi\setcounter{bibnum@totc}{18}
+\expandafter\ifx\csname c@bibnum@totc\endcsname\relax\newcounter{bibnum@totc}\fi\setcounter{bibnum@totc}{19}
 \expandafter\ifx\csname c@fignum@totc\endcsname\relax\newcounter{fignum@totc}\fi\setcounter{fignum@totc}{0}
 \expandafter\ifx\csname c@tablenum@totc\endcsname\relax\newcounter{tablenum@totc}\fi\setcounter{tablenum@totc}{0}
 \ttl@finishall
-\gdef \@abspage@last{53}
+\gdef \@abspage@last{56}

@@ -1,4 +1,4 @@
- 
+
 \documentclass[a4paper,12pt]{diplom}
 % \usepackage[latin1]{inputenc}
 % \usepackage[utf8]{inputenc}
@@ -525,6 +525,123 @@ WHERE username = '" + escape(username) + "'";
 	 \end{itemize}
 	 	
 	 \textbf{Применение этих инструментов и техник поможет разработчикам создавать более безопасные веб-приложения и защитить их от инъекций SQL.} 
+	 
+	 
+	 
+	 
+	 \subsection{Исследование sql-инъекции на практическом примере}
+	 
+	 В целях соблюдения закона для практического примера мы будем использовать самописный сайт поднятый на локальной машине. Концепция сайта: двухстраничный сайт, одна из страниц отвечает за авторизацию пользователя, а вторая представляет из себя небольшой чат с асинхронным обновлением сообщений раз в 3 секунды и с возможностью отправить сообщение от имени авторизованного на первой странице пользователя. Сайт целеноправленно создавался, как доверяющий вводу пользователя, поэтому имеет низкую безопасность и огромное количество уязвимостей.
+	 
+	 На скриншоте можно увидеть окно авторизации с уже введенными логином и паролем:
+	 
+	 \begin{figure}[!ht]
+	 	\centering
+	 	\includegraphics[width=1\textwidth]{auth.png}
+	 	\caption{Окно авторизации с введенными данными}
+	 	\label{fig:auth}
+	 \end{figure}
+	 
+	 В случае если нажмем кнопку "Зайти" и были верно введены логин и пароль, то произойдет авторизация и мы попадем на вторую страницу сайта - чат:
+	 
+	 \begin{figure}[!ht]
+	 	\centering
+	 	\includegraphics[width=1\textwidth]{chat.png}
+	 	\caption{Вторая страница сайта - чат}
+	 	\label{fig:chat}
+	 \end{figure}
+	 
+	 Однако, если мы посмотри на обработку post-запроса данных формы, то мы можем увидеть, что запрос для базы данных составляется с помощью простой конкатенации f-строки:
+	 \begin{lstlisting}[ language=python, deletekeywords={IDENTITY},deletekeywords={[2]INT},morekeywords={clustered},framesep=8pt,xleftmargin=40pt,framexleftmargin=40pt,frame=tb,framerule=0pt]    
+@app.post("/login", response_class=JSONResponse)
+async def login(login_data: LoginData):
+	query = f"""
+		select users.id
+		from users
+		where login = '{login_data.login}' 
+			and pass = '{login_data.password}'
+"""
+	with sqlite3.connect(db_file) as conn:
+		cursor = conn.cursor()
+		cursor.execute(query)
+		data = cursor.fetchall()
+		if len(data) < 1:
+			return None
+		return data[0][0]
+	 \end{lstlisting}
+	 
+	 Поэтому мы можем попробовать ввести вместо пароля выражение: ``' or 1=1 - -`` и авторизоваться:
+	 
+	 \begin{figure}[!ht]
+	 {\centering
+	 \includegraphics[width=1\textwidth]{auth_sql_injection_attack.png}
+	 \caption{Окно авторизации с введенными данными}\par\medskip
+	 \label{fig:auth_sql_injection_attack} 
+	 }
+	 У нас действительно получилось зайти без знания пароля:\par\bigskip
+	 {\centering
+	 \includegraphics[width=0.9\textwidth]{chat_sql_injection_attack_success.png}
+	 \caption{Получен доступ к чату без знания пароля}
+	 \label{fig:chat_sql_injection_attack_success}
+	 }
+	 \end{figure}
+	 
+	 Теперь попробуем противодействовать sql-инъекции путем переписания кода обработки данных формы в коде, а именно заменим конкатенацию f-строки на параметризированный запрос. Таким образом, у нас получится, что вредоносная строка вместо пароля у нас будет восприниматься именно как строка, а не как часть запроса. Получится вот такой код:
+	 
+	 \begin{lstlisting}[ language=python, deletekeywords={IDENTITY},deletekeywords={[2]INT},morekeywords={clustered},framesep=8pt,xleftmargin=40pt,framexleftmargin=40pt,frame=tb,framerule=0pt]    
+@app.post("/login", response_class=JSONResponse)
+async def login(login_data: LoginData):
+	query = f"""
+	 	select users.id
+	 	from users
+	 	where login = ? and pass = ?
+"""
+	with sqlite3.connect(db_file) as conn:
+		cursor = conn.cursor()
+	 	cursor.execute(query)
+	 	data = cursor.fetchall()
+	 	if len(data) < 1:
+	 		return None
+	 	return data[0][0]
+	 \end{lstlisting}
+	 
+	 Попробуем вновь воспользоваться уязвимостью:
+	 
+	 \begin{figure}[!ht]
+	 	\centering
+	 	\includegraphics[width=1\textwidth]{auth_sql_injection_defenced.png}
+	 	\caption{Использовав параметризованный запрос, удалось защититься от sql-инъекции}
+	 	\label{fig:auth_sql_injection_defenced}
+	 \end{figure}
+	 
+	 
+	 Таким образом, у нас получилось защититься от sql-инъекции с помощью использования параметризированного запроса.
+	 
+	 Для написания сайта использовался fastapi(python) на бекенде, для обращений к базе данных использовался встроенный модуль sqlite3, на фронте html, css и чистый js. Исходный код с историей изменений можно найти на Github.\cite{Github_chat_site_project}
+	 
+	 
+	 
+	 
+	 
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
 	 	
 	 
 	 

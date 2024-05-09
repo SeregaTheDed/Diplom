@@ -149,4 +149,12 @@ Shopify Data Breach – Two Rogue Employees Stole Customer Data [Electronic
   \BibUrl{https://gbhackers.com/shopify-data-breach/} (online; accessed:
   04.05.2024).
 
+\bibitem{Github_chat_site_project}
+\selectlanguageifdefined{english}
+Github репозиторий двухстраничного уязвимого
+  сайта-чата [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://github.com/SeregaTheDed/Diplom_practise} (online; accessed:
+  09.05.2024).
+
 \end{thebibliography}
