@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  10 MAY 2024 03:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  10 MAY 2024 03:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2091,22 +2091,23 @@ File: auth.png Graphic file (type png)
 <use auth.png>
 Package pdftex.def Info: auth.png  used on input line 540.
 (pdftex.def)             Requested size: 455.24411pt x 242.07704pt.
-<chat.png, id=778, 1390.44469pt x 697.8572pt>
+ [20 <./auth.png>]
+<chat.png, id=785, 1390.44469pt x 697.8572pt>
 File: chat.png Graphic file (type png)
 <use chat.png>
 Package pdftex.def Info: chat.png  used on input line 549.
 (pdftex.def)             Requested size: 455.24411pt x 228.48335pt.
- [20 <./auth.png>]
+
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-<auth_sql_injection_attack.png, id=785, 1397.22pt x 700.11563pt>
+<auth_sql_injection_attack.png, id=786, 1397.22pt x 700.11563pt>
 File: auth_sql_injection_attack.png Graphic file (type png)
 <use auth_sql_injection_attack.png>
 Package pdftex.def Info: auth_sql_injection_attack.png  used on input line 577.
 
 (pdftex.def)             Requested size: 455.24411pt x 228.11176pt.
-<chat_sql_injection_attack_success.png, id=786, 1398.72563pt x 743.02594pt>
+<chat_sql_injection_attack_success.png, id=787, 1398.72563pt x 743.02594pt>
 File: chat_sql_injection_attack_success.png Graphic file (type png)
 <use chat_sql_injection_attack_success.png>
 Package pdftex.def Info: chat_sql_injection_attack_success.png  used on input l
@@ -2115,7 +2116,7 @@ ine 583.
 
 [21 <./chat.png>] [22 <./auth_sql_injection_attack.png> <./chat_sql_injection_a
 ttack_success.png>]
-<auth_sql_injection_defenced.png, id=824, 1403.99532pt x 664.73344pt>
+<auth_sql_injection_defenced.png, id=823, 1403.99532pt x 664.73344pt>
 File: auth_sql_injection_defenced.png Graphic file (type png)
 <use auth_sql_injection_defenced.png>
 Package pdftex.def Info: auth_sql_injection_defenced.png  used on input line 61
@@ -2172,18 +2173,18 @@ Overfull \hbox (0.20857pt too wide) in paragraph at lines 951--958
 le_1200"width="50"height="50�
  []
 
-<chat_xss_attack_success.png, id=905, 1406.25375pt x 484.81125pt>
+<chat_xss_attack_success.png, id=906, 1406.25375pt x 484.81125pt>
 File: chat_xss_attack_success.png Graphic file (type png)
 <use chat_xss_attack_success.png>
 Package pdftex.def Info: chat_xss_attack_success.png  used on input line 961.
 (pdftex.def)             Requested size: 455.24411pt x 156.94038pt.
-<chat_xss_attack_success_send.png, id=906, 1407.75937pt x 755.82375pt>
+<chat_xss_attack_success_send.png, id=907, 1407.75937pt x 755.82375pt>
 File: chat_xss_attack_success_send.png Graphic file (type png)
 <use chat_xss_attack_success_send.png>
 Package pdftex.def Info: chat_xss_attack_success_send.png  used on input line 9
 69.
 (pdftex.def)             Requested size: 455.24411pt x 244.41731pt.
-<chat_xss_attack_success_referenced.png, id=907, 1397.97281pt x 502.12593pt>
+<chat_xss_attack_success_referenced.png, id=908, 1397.97281pt x 502.12593pt>
 File: chat_xss_attack_success_referenced.png Graphic file (type png)
 <use chat_xss_attack_success_referenced.png>
 Package pdftex.def Info: chat_xss_attack_success_referenced.png  used on input 
@@ -2195,7 +2196,7 @@ Overfull \hbox (16.76028pt too wide) in paragraph at lines 1002--1003
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<chat_xss_attack_failed.png, id=936, 1405.50093pt x 642.90187pt>
+<chat_xss_attack_failed.png, id=937, 1405.50093pt x 642.90187pt>
 File: chat_xss_attack_failed.png Graphic file (type png)
 <use chat_xss_attack_failed.png>
 Package pdftex.def Info: chat_xss_attack_failed.png  used on input line 1012.
@@ -2302,27 +2303,37 @@ L3 programming layer <2024-01-04>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package rerunfilecheck Info: File `Диплом.out' has not changed.
-(rerunfilecheck)             Checksum: 680C8FD03F9FC17C85439F5DDF063B72;39828.
+
+Package rerunfilecheck Warning: File `Диплом.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Диплом.out':
+(rerunfilecheck)             Before: 680C8FD03F9FC17C85439F5DDF063B72;39828
+(rerunfilecheck)             After:  62EE2CE592791D6C0C917BAD1A9C80EF;39821.
  ) 
 Here is how much of TeX's memory you used:
- 32364 strings out of 474485
- 584742 string characters out of 5744206
+ 32365 strings out of 474485
+ 584753 string characters out of 5744206
  1953542 words of memory out of 5000000
  53392 multiletter control sequences out of 15000+600000
  650273 words of font info for 288 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,93p,1160b,2068s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF
-55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptser
-if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
-/ptserif/PTF75F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/pa
-ratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/paratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/font
-s/type1/paratype/ptmono/PTM75F.pfb>
-Output written on Диплом.pdf (59 pages, 708422 bytes).
+ 84i,7n,93p,1160b,2127s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{subsection.1.5.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+<C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF55
+F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif
+/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/p
+tserif/PTF75F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/para
+type/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1
+/paratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/
+type1/paratype/ptmono/PTM75F.pfb>
+Output written on Диплом.pdf (59 pages, 708540 bytes).
 PDF statistics:
- 1263 PDF objects out of 1440 (max. 8388607)
- 381 named destinations out of 1000 (max. 500000)
+ 1264 PDF objects out of 1440 (max. 8388607)
+ 382 named destinations out of 1000 (max. 500000)
  45074 words of extra memory for PDF output out of 51595 (max. 10000000)
 

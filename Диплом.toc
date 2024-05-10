@@ -30,7 +30,7 @@
 \contentsline {subsection}{\numberline {1.5.2}Инструменты динамического анализа приложений}{18}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Фаззеры}{19}{subsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.5.4}Техники безопасного программирования}{19}{subsection.1.5.4}%
-\contentsline {subsection}{\numberline {1.5.5}Исследование sql-инъекции на практическом примере}{20}{subsection.1.5.5}%
+\contentsline {section}{\numberline {1.6}Исследование sql-инъекции на практическом примере}{20}{section.1.6}%
 \contentsline {chapter}{\numberline {2}Межсайтовый скриптинг (XSS)}{24}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Понятие межсайтового скриптинга и его воздействие на пользователей}{24}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Сущность XSS}{24}{subsection.2.1.1}%
