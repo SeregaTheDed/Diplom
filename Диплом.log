@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  9 MAY 2024 03:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  10 MAY 2024 03:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2086,12 +2086,12 @@ Overfull \hbox (32.14285pt too wide) in paragraph at lines 370--371
  []
 
 [14] [15] [16] [17] [18] [19]
-<auth.png, id=771, 1398.72563pt x 743.77875pt>
+<auth.png, id=776, 1398.72563pt x 743.77875pt>
 File: auth.png Graphic file (type png)
 <use auth.png>
 Package pdftex.def Info: auth.png  used on input line 540.
 (pdftex.def)             Requested size: 455.24411pt x 242.07704pt.
-<chat.png, id=773, 1390.44469pt x 697.8572pt>
+<chat.png, id=778, 1390.44469pt x 697.8572pt>
 File: chat.png Graphic file (type png)
 <use chat.png>
 Package pdftex.def Info: chat.png  used on input line 549.
@@ -2100,13 +2100,13 @@ Package pdftex.def Info: chat.png  used on input line 549.
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-<auth_sql_injection_attack.png, id=780, 1397.22pt x 700.11563pt>
+<auth_sql_injection_attack.png, id=785, 1397.22pt x 700.11563pt>
 File: auth_sql_injection_attack.png Graphic file (type png)
 <use auth_sql_injection_attack.png>
 Package pdftex.def Info: auth_sql_injection_attack.png  used on input line 577.
 
 (pdftex.def)             Requested size: 455.24411pt x 228.11176pt.
-<chat_sql_injection_attack_success.png, id=781, 1398.72563pt x 743.02594pt>
+<chat_sql_injection_attack_success.png, id=786, 1398.72563pt x 743.02594pt>
 File: chat_sql_injection_attack_success.png Graphic file (type png)
 <use chat_sql_injection_attack_success.png>
 Package pdftex.def Info: chat_sql_injection_attack_success.png  used on input l
@@ -2115,7 +2115,7 @@ ine 583.
 
 [21 <./chat.png>] [22 <./auth_sql_injection_attack.png> <./chat_sql_injection_a
 ttack_success.png>]
-<auth_sql_injection_defenced.png, id=819, 1403.99532pt x 664.73344pt>
+<auth_sql_injection_defenced.png, id=824, 1403.99532pt x 664.73344pt>
 File: auth_sql_injection_defenced.png Graphic file (type png)
 <use auth_sql_injection_defenced.png>
 Package pdftex.def Info: auth_sql_injection_defenced.png  used on input line 61
@@ -2162,36 +2162,75 @@ Overfull \hbox (9.63152pt too wide) in paragraph at lines 888--889
  []
 
 [31] [32]
-{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
-[33
+Overfull \hbox (2.36014pt too wide) in paragraph at lines 947--948
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-] [34] [35] [36] [37]
-Overfull \hbox (5.60126pt too wide) in paragraph at lines 1104--1105
+
+Overfull \hbox (0.20857pt too wide) in paragraph at lines 951--958
+\T2A/PTSerif-TLF/m/n/12 (-20) d6ec0454f6146a93ef08_6027d774331cb763527c70c3/sca
+le_1200"width="50"height="50ї
+ []
+
+<chat_xss_attack_success.png, id=905, 1406.25375pt x 484.81125pt>
+File: chat_xss_attack_success.png Graphic file (type png)
+<use chat_xss_attack_success.png>
+Package pdftex.def Info: chat_xss_attack_success.png  used on input line 961.
+(pdftex.def)             Requested size: 455.24411pt x 156.94038pt.
+<chat_xss_attack_success_send.png, id=906, 1407.75937pt x 755.82375pt>
+File: chat_xss_attack_success_send.png Graphic file (type png)
+<use chat_xss_attack_success_send.png>
+Package pdftex.def Info: chat_xss_attack_success_send.png  used on input line 9
+69.
+(pdftex.def)             Requested size: 455.24411pt x 244.41731pt.
+<chat_xss_attack_success_referenced.png, id=907, 1397.97281pt x 502.12593pt>
+File: chat_xss_attack_success_referenced.png Graphic file (type png)
+<use chat_xss_attack_success_referenced.png>
+Package pdftex.def Info: chat_xss_attack_success_referenced.png  used on input 
+line 977.
+(pdftex.def)             Requested size: 455.24411pt x 163.51079pt.
+[33 <./chat_xss_attack_success.png>] [34 <./chat_xss_attack_success_send.png> <
+./chat_xss_attack_success_referenced.png>]
+Overfull \hbox (16.76028pt too wide) in paragraph at lines 1002--1003
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+<chat_xss_attack_failed.png, id=936, 1405.50093pt x 642.90187pt>
+File: chat_xss_attack_failed.png Graphic file (type png)
+<use chat_xss_attack_failed.png>
+Package pdftex.def Info: chat_xss_attack_failed.png  used on input line 1012.
+(pdftex.def)             Requested size: 455.24411pt x 208.23431pt.
+[35 <./chat_xss_attack_failed.png>]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+[36
+
+] [37] [38] [39] [40]
+Overfull \hbox (5.60126pt too wide) in paragraph at lines 1208--1209
 \T2A/PTSerif-TLF/m/n/12 (-20) CSRF-атак с по-мо-щью middleware `django.middlewa
 re.csrf.CsrfViewMiddleware`.
  []
 
-[38] [39]
+[41] [42]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
-[40
+[43
 
-] [41] [42] [43]
-Overfull \hbox (5.96228pt too wide) in paragraph at lines 1299--1300
+] [44] [45] [46]
+Overfull \hbox (5.96228pt too wide) in paragraph at lines 1403--1404
 []\T2A/PTSerif-TLF/b/n/12 (-20) Nikto: \T2A/PTSerif-TLF/m/n/12 (-20) От-кры-тый
  ска-нер уяз-ви-мо-стей, спе-ци-а-ли-зи-ру-ю-щий-ся на веб-серверах. 
  []
 
-[44] [45] [46] [47] [48]
+[47] [48] [49] [50] [51]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 5.
 
-Overfull \hbox (17.71504pt too wide) in paragraph at lines 1434--1434
+Overfull \hbox (17.71504pt too wide) in paragraph at lines 1538--1538
 |[]\T2A/PTSerif-TLF/b/n/14.4 (-20) Анализ кон-крет-ных слу-ча-ев уяз-ви-мо-стей
  веб-приложений| 
  []
 
-[49
+[52
 
-] [50] [51] [52] [53] (Р”РёРїР»РѕРј.bbl [54]
+] [53] [54] [55] [56] (Р”РёРїР»РѕРј.bbl [57]
 Underfull \hbox (badness 10000) in paragraph at lines 13--17
 []\T2A/PTSerif-TLF/m/n/12 (+20) 2015 Talk-Talk da-ta breach [Elec-tron-ic re-so
 urce]. ^^V  Режим доступа:
@@ -2233,7 +2272,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--92
 cebook _ grozit _
  []
 
-[55
+[58
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 122--126
@@ -2253,7 +2292,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--151
 \T2A/PTMono-TLF/m/n/12 https : / / gbhackers . com /
  []
 
-) [56] (Р”РёРїР»РѕРј.aux)
+) [59] (Р”РёРїР»РѕРј.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -2264,16 +2303,16 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
 Package rerunfilecheck Info: File `Р”РёРїР»РѕРј.out' has not changed.
-(rerunfilecheck)             Checksum: 109A2DE3ECFBCCD0D59FB447D1C5F694;39447.
+(rerunfilecheck)             Checksum: 680C8FD03F9FC17C85439F5DDF063B72;39828.
  ) 
 Here is how much of TeX's memory you used:
- 32255 strings out of 474485
- 582436 string characters out of 5744206
+ 32364 strings out of 474485
+ 584742 string characters out of 5744206
  1953542 words of memory out of 5000000
- 53340 multiletter control sequences out of 15000+600000
+ 53392 multiletter control sequences out of 15000+600000
  650273 words of font info for 288 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,6n,93p,1160b,2068s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,7n,93p,1160b,2068s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF
 55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptser
 if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
@@ -2281,9 +2320,9 @@ if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
 ratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/paratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/font
 s/type1/paratype/ptmono/PTM75F.pfb>
-Output written on Р”РёРїР»РѕРј.pdf (56 pages, 549152 bytes).
+Output written on Р”РёРїР»РѕРј.pdf (59 pages, 708422 bytes).
 PDF statistics:
- 1173 PDF objects out of 1200 (max. 8388607)
- 324 named destinations out of 1000 (max. 500000)
- 45046 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1263 PDF objects out of 1440 (max. 8388607)
+ 381 named destinations out of 1000 (max. 500000)
+ 45074 words of extra memory for PDF output out of 51595 (max. 10000000)
 
