@@ -44,6 +44,35 @@ clean code for teams and enterprises with {SonarQube} [Electronic resource].
   \BibUrl{https://www.sonarsource.com/products/sonarqube/} (online; accessed:
   04.05.2024).
 
+\bibitem{Acunetix_tool}
+\selectlanguageifdefined{english}
+Acunetix - All-in-One Web Application Security Scanner [Electronic resource].
+  "---
+\newblock Режим доступа:
+  \BibUrl{https://www.acceron.net/index.php/products/acunetix} (online;
+  accessed: 16.05.2024).
+
+\bibitem{Sulley_tool}
+\selectlanguageifdefined{english}
+Sulley is a fuzzing engine and fuzz testing framework consisting of multiple
+  extensible components [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://github.com/OpenRCE/sulley}
+  (online; accessed: 16.05.2024).
+
+\bibitem{Wfuzz_tool}
+\selectlanguageifdefined{english}
+Wfuzz - The Web Fuzzer [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://github.com/xmendez/wfuzz}
+  (online; accessed: 16.05.2024).
+
+\bibitem{CSRF_tool}
+\selectlanguageifdefined{english}
+csrf-tester - HTML tool to test CSRF attacks on a website. [Electronic
+  resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://github.com/sergioccrr/csrf-tester} (online; accessed:
+  16.05.2024).
+
 \bibitem{ZAP_habr}
 \selectlanguageifdefined{russian}
 Обзор OWASP ZAP. Сканер для поиска уязвимостей
@@ -89,6 +118,29 @@ Facebook грозит 1,5-миллиардный штраф за утечку
 \newblock Режим доступа:
   \BibUrl{https://safe.cnews.ru/news/top/2018-10-01_facebook_grozit_milliardnyj_shtraf_za_utechku_dannyh}
   ({дата обращения}: 04.05.2024).
+
+\bibitem{Fortnite_attack}
+\selectlanguageifdefined{english}
+Epic's Fortnite fail: Ancient UT2004 server used for login-stealing
+  proof-of-concept [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://www.theregister.com/2019/01/16/fortnite_security_vuln_token_theft/}
+  (online; accessed: 04.05.2024).
+
+\bibitem{Twich_attack}
+\selectlanguageifdefined{english}
+This is why you sanitize user input: Chat hacked live by XSS/HTML code
+  injection, hilarity ensues [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://www.youtube.com/watch?v=2GtbY1XWGlQ} (online; accessed:
+  16.05.2024).
+
+\bibitem{TikTok_attack}
+\selectlanguageifdefined{english}
+TikTok Careers Portal Account Takeover [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://security.lauritz-holtmann.de/advisories/tiktok-account-takeover/}
+  (online; accessed: 17.05.2024).
 
 \bibitem{Marriott_International_attack}
 \selectlanguageifdefined{russian}
