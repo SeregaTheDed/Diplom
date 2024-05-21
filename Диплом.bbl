@@ -209,4 +209,18 @@ Github репозиторий двухстраничного уязвимого
   \BibUrl{https://github.com/SeregaTheDed/Diplom_practise} (online; accessed:
   09.05.2024).
 
+\bibitem{Sqlcontest_site}
+\selectlanguageifdefined{russian}
+Сайт Sql-контеста для студентов ЯрГУ
+  [{Электронный ресурс}]. "---
+\newblock Режим доступа: \BibUrl{http://sqlcontest.uniyar.ac.ru/}
+  ({дата обращения}: 21.05.2024).
+
+\bibitem{Burp_Suite_github}
+\selectlanguageifdefined{english}
+Burpsuite Professional v2024 latest [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://github.com/xiv3r/Burpsuite-Professional} (online; accessed:
+  21.05.2024).
+
 \end{thebibliography}
