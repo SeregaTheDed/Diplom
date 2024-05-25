@@ -105,7 +105,7 @@
 \contentsline {section}{\numberline {4.5}Пример использования инструмента на реальном сайте}{51}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Введение}{51}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Установка Burp Suite}{51}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Сканирование уязвимостей с помощью Burp Suite}{52}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.3}Сканирование уязвимостей с помощью Burp Suite}{51}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}Анализ найденных уязвимостей и рекомендации по исправлению}{52}{subsection.4.5.4}%
 \contentsline {chapter}{\numberline {5}Конкретные случаи и анализ приложений}{55}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Анализ конкретных случаев уязвимостей веб-приложений}{55}{section.5.1}%
