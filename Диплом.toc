@@ -3,33 +3,33 @@
 \contentsline {chapter}{\numberline {1}Инъекции SQL}{9}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Определение и примеры инъекций SQL.}{9}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Сущность инъекции SQL}{9}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Механизм атаки}{9}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Классификация инъекций SQL}{9}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Примеры инъекций SQL}{10}{subsection.1.1.4}%
+\contentsline {subsection}{\numberline {1.1.2}Механизм атаки}{10}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Классификация инъекций SQL}{10}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Примеры инъекций SQL}{11}{subsection.1.1.4}%
 \contentsline {section}{\numberline {1.2}Причины возникновения инъекций SQL}{12}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Недостаточная валидация и фильтрация пользовательского ввода}{12}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Использование динамических SQL-запросов}{12}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.2}Использование динамических SQL-запросов}{13}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Неправильная конфигурация базы данных}{13}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Использование устаревшего программного обеспечения}{13}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {1.2.5}Недостаточное обучение и осведомленность разработчиков}{13}{subsection.1.2.5}%
-\contentsline {subsection}{\numberline {1.2.6}Использование небезопасных функций}{13}{subsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.2.4}Использование устаревшего программного обеспечения}{14}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.5}Недостаточное обучение и осведомленность разработчиков}{14}{subsection.1.2.5}%
+\contentsline {subsection}{\numberline {1.2.6}Использование небезопасных функций}{14}{subsection.1.2.6}%
 \contentsline {subsection}{\numberline {1.2.7}Человеческий фактор}{14}{subsection.1.2.7}%
-\contentsline {section}{\numberline {1.3}Возможные последствия и угрозы для приложений и баз данных}{14}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Нарушение конфиденциальности данных}{14}{subsection.1.3.1}%
+\contentsline {section}{\numberline {1.3}Возможные последствия и угрозы для приложений и баз данных}{15}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Нарушение конфиденциальности данных}{15}{subsection.1.3.1}%
 \contentsline {subsection}{\numberline {1.3.2}Нарушение целостности данных}{15}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Нарушение доступности данных}{15}{subsection.1.3.3}%
-\contentsline {subsection}{\numberline {1.3.4}Финансовые потери}{15}{subsection.1.3.4}%
+\contentsline {subsection}{\numberline {1.3.4}Финансовые потери}{16}{subsection.1.3.4}%
 \contentsline {subsection}{\numberline {1.3.5}Репутационные потери}{16}{subsection.1.3.5}%
 \contentsline {subsection}{\numberline {1.3.6}Примеры реальных инцидентов}{16}{subsection.1.3.6}%
-\contentsline {section}{\numberline {1.4}Методы обнаружения и предотвращения инъекций SQL}{16}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Методы обнаружения уязвимостей}{16}{subsection.1.4.1}%
+\contentsline {section}{\numberline {1.4}Методы обнаружения и предотвращения инъекций SQL}{17}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Методы обнаружения уязвимостей}{17}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}Методы предотвращения атак}{17}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Минимизация последствий}{17}{subsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.4.3}Минимизация последствий}{18}{subsection.1.4.3}%
 \contentsline {section}{\numberline {1.5}Инструменты для защиты от инъекций SQL}{18}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Инструменты статического анализа кода}{18}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Инструменты динамического анализа приложений}{18}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.1}Инструменты статического анализа кода}{19}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Инструменты динамического анализа приложений}{19}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Фаззеры}{19}{subsection.1.5.3}%
-\contentsline {section}{\numberline {1.6}Исследование sql-инъекции на практическом примере}{19}{section.1.6}%
+\contentsline {section}{\numberline {1.6}Исследование sql-инъекции на практическом примере}{20}{section.1.6}%
 \contentsline {chapter}{\numberline {2}Межсайтовый скриптинг (XSS)}{24}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Понятие межсайтового скриптинга и его воздействие на пользователей}{24}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Сущность XSS}{24}{subsection.2.1.1}%

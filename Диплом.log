@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  25 MAY 2024 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  2 JUN 2024 16:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2020,7 +2020,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
  [6] [7
 
 ]
-Overfull \hbox (21.63837pt too wide) in paragraph at lines 152--153
+Overfull \hbox (21.63837pt too wide) in paragraph at lines 162--163
 []\T2A/PTSerif-TLF/m/n/12 (-20) Результаты дан-ной ра-бо-ты мо-гут быть по-лез-
 ны раз-ра-бот-чи-кам веб-приложений,
  []
@@ -2028,19 +2028,19 @@ Overfull \hbox (21.63837pt too wide) in paragraph at lines 152--153
 [8]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
 
-Overfull \hbox (20.05197pt too wide) in paragraph at lines 165--166
+Overfull \hbox (20.05197pt too wide) in paragraph at lines 190--191
 []\T2A/PTSerif-TLF/m/n/12 (-20) Инъекция SQL (SQL Injection) ^^U это тип ата-ки
 , на-прав-лен-ной на веб-приложения,
  []
 
 [9
 
-]
+] [10]
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 LaTeX Font Info:    Trying to load font information for T2A+PTMono-TLF on input
- line 223.
+ line 248.
 
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/paratype\t2aptmono-tlf.f
 d
@@ -2050,10 +2050,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `PTMono-TLF' (encoding: T2A).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [10{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptmon
-o_t2a.enc}]
 LaTeX Font Info:    Trying to load font information for TS1+PTSerif-TLF on inpu
-t line 231.
+t line 256.
 
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/paratype\ts1ptserif-tlf.
 fd
@@ -2064,67 +2062,68 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (31.16043pt too wide) in paragraph at lines 231--232
+Overfull \hbox (31.16043pt too wide) in paragraph at lines 256--257
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (31.16043pt too wide) in paragraph at lines 263--264
+[11{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptmono
+_t2a.enc}{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/
+ptserif_ts1.enc}]
+Overfull \hbox (31.16043pt too wide) in paragraph at lines 288--289
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[11{C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/paratype/ptseri
-f_ts1.enc}]
-Overfull \hbox (31.16043pt too wide) in paragraph at lines 309--310
+[12]
+Overfull \hbox (31.16043pt too wide) in paragraph at lines 334--335
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[12] [13]
-Overfull \hbox (32.14285pt too wide) in paragraph at lines 370--371
+[13]
+Overfull \hbox (32.14285pt too wide) in paragraph at lines 395--396
 []\T2A/PTSerif-TLF/m/n/12 (-20) Успешная инъ-ек-ция SQL мо-жет иметь се-рьез-ны
 е по-след-ствия для веб-приложений
  []
 
 [14] [15] [16] [17] [18] [19]
-<auth.png, id=812, 1398.72563pt x 743.77875pt>
+<auth.png, id=810, 1398.72563pt x 743.77875pt>
 File: auth.png Graphic file (type png)
 <use auth.png>
-Package pdftex.def Info: auth.png  used on input line 528.
+Package pdftex.def Info: auth.png  used on input line 553.
 (pdftex.def)             Requested size: 455.24411pt x 242.07704pt.
-<chat.png, id=814, 1390.44469pt x 697.8572pt>
+<chat.png, id=812, 1390.44469pt x 697.8572pt>
 File: chat.png Graphic file (type png)
 <use chat.png>
-Package pdftex.def Info: chat.png  used on input line 537.
+Package pdftex.def Info: chat.png  used on input line 562.
 (pdftex.def)             Requested size: 455.24411pt x 228.48335pt.
 
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-[20 <./auth.png> <./chat.png>]
-<auth_sql_injection_attack.png, id=823, 1397.22pt x 700.11563pt>
+[20 <./auth.png>]
+<auth_sql_injection_attack.png, id=821, 1397.22pt x 700.11563pt>
 File: auth_sql_injection_attack.png Graphic file (type png)
 <use auth_sql_injection_attack.png>
-Package pdftex.def Info: auth_sql_injection_attack.png  used on input line 565.
+Package pdftex.def Info: auth_sql_injection_attack.png  used on input line 590.
 
 (pdftex.def)             Requested size: 455.24411pt x 228.11176pt.
-<chat_sql_injection_attack_success.png, id=824, 1398.72563pt x 743.02594pt>
+<chat_sql_injection_attack_success.png, id=822, 1398.72563pt x 743.02594pt>
 File: chat_sql_injection_attack_success.png Graphic file (type png)
 <use chat_sql_injection_attack_success.png>
 Package pdftex.def Info: chat_sql_injection_attack_success.png  used on input l
-ine 574.
+ine 599.
 (pdftex.def)             Requested size: 409.71692pt x 217.64883pt.
- [21 <./auth_sql_injection_attack.png>]
-<auth_sql_injection_defenced.png, id=847, 1403.99532pt x 664.73344pt>
+ [21 <./chat.png>] [22 <./auth_sql_injection_attack.png> <./chat_sql_injection_
+attack_success.png>]
+<auth_sql_injection_defenced.png, id=859, 1403.99532pt x 664.73344pt>
 File: auth_sql_injection_defenced.png Graphic file (type png)
 <use auth_sql_injection_defenced.png>
-Package pdftex.def Info: auth_sql_injection_defenced.png  used on input line 60
-3.
+Package pdftex.def Info: auth_sql_injection_defenced.png  used on input line 62
+8.
 (pdftex.def)             Requested size: 455.24411pt x 215.5388pt.
- [22 <./chat_sql_injection_attack_success.png>] [23 <./auth_sql_injection_defen
-ced.png>]
+ [23 <./auth_sql_injection_defenced.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 
-Overfull \hbox (4.45575pt too wide) in paragraph at lines 666--667
+Overfull \hbox (4.45575pt too wide) in paragraph at lines 691--692
 []\T2A/PTSerif-TLF/b/n/12 (-20) Кражи дан-ных поль-зо-ва-те-ля\T2A/PTSerif-TLF/
 m/n/12 (-20) : зло-умыш-лен-ник мо-жет украсть фай-лы cookie,
  []
@@ -2132,42 +2131,42 @@ m/n/12 (-20) : зло-умыш-лен-ник мо-жет украсть фай-лы cookie,
 [24
 
 ]
-Overfull \hbox (39.73155pt too wide) in paragraph at lines 694--695
+Overfull \hbox (39.73155pt too wide) in paragraph at lines 719--720
 \T2A/PTSerif-TLF/b/n/12 (-20) се-рьез-ные по-след-ствия для поль-зо-ва-те-лей. 
 По-это-му раз-ра-бот-чи-ки веб-приложений
  []
 
 [25] [26] [27] [28] [29]
-Overfull \hbox (2.10312pt too wide) in paragraph at lines 836--837
+Overfull \hbox (2.10312pt too wide) in paragraph at lines 861--862
 []\T2A/PTSerif-TLF/b/n/12 (-20) Регулярное об-нов-ле-ние про-грамм-но-го обес-п
 е-че-ния: \T2A/PTSerif-TLF/m/n/12 (-20) Раз-ра-бот-чи-ки долж-
  []
 
 
-Overfull \hbox (4.52678pt too wide) in paragraph at lines 855--856
+Overfull \hbox (4.52678pt too wide) in paragraph at lines 880--881
 []\T2A/PTSerif-TLF/m/n/12 (-20) Кодирование вы-ход-ных дан-ных яв-ля-ет-ся од-н
 им из ос-нов-ных ме-то-дов предот-
  []
 
 [30]
-Overfull \hbox (3.85289pt too wide) in paragraph at lines 878--879
+Overfull \hbox (3.85289pt too wide) in paragraph at lines 903--904
 \T2A/PTSerif-TLF/m/n/12 (-20) от-кры-тым ис-ход-ным ко-дом для те-сти-ро-ва-ния
  без-опас-но-сти веб-приложений.
  []
 
 
-Overfull \hbox (22.42351pt too wide) in paragraph at lines 879--880
+Overfull \hbox (22.42351pt too wide) in paragraph at lines 904--905
 \T2A/PTSerif-TLF/m/n/12 (-20) для те-сти-ро-ва-ния без-опас-но-сти, вклю-чая об
 -на-ру-же-ние XSS-уязвимостей.[[]][[]] 
  []
 
 [31] [32]
-Overfull \hbox (2.36014pt too wide) in paragraph at lines 938--939
+Overfull \hbox (2.36014pt too wide) in paragraph at lines 963--964
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (0.20857pt too wide) in paragraph at lines 942--949
+Overfull \hbox (0.20857pt too wide) in paragraph at lines 967--974
 \T2A/PTSerif-TLF/m/n/12 (-20) d6ec0454f6146a93ef08_6027d774331cb763527c70c3/sca
 le_1200"width="50"height="50ї
  []
@@ -2175,37 +2174,37 @@ le_1200"width="50"height="50ї
 <chat_xss_attack_success.png, id=940, 1406.25375pt x 484.81125pt>
 File: chat_xss_attack_success.png Graphic file (type png)
 <use chat_xss_attack_success.png>
-Package pdftex.def Info: chat_xss_attack_success.png  used on input line 952.
+Package pdftex.def Info: chat_xss_attack_success.png  used on input line 977.
 (pdftex.def)             Requested size: 455.24411pt x 156.94038pt.
 <chat_xss_attack_success_send.png, id=941, 1407.75937pt x 755.82375pt>
 File: chat_xss_attack_success_send.png Graphic file (type png)
 <use chat_xss_attack_success_send.png>
 Package pdftex.def Info: chat_xss_attack_success_send.png  used on input line 9
-60.
+85.
 (pdftex.def)             Requested size: 455.24411pt x 244.41731pt.
 <chat_xss_attack_success_referenced.png, id=942, 1397.97281pt x 502.12593pt>
 File: chat_xss_attack_success_referenced.png Graphic file (type png)
 <use chat_xss_attack_success_referenced.png>
 Package pdftex.def Info: chat_xss_attack_success_referenced.png  used on input 
-line 968.
+line 993.
 (pdftex.def)             Requested size: 455.24411pt x 163.51079pt.
 [33 <./chat_xss_attack_success.png>] [34 <./chat_xss_attack_success_send.png> <
 ./chat_xss_attack_success_referenced.png>]
-Overfull \hbox (16.76028pt too wide) in paragraph at lines 993--994
+Overfull \hbox (16.76028pt too wide) in paragraph at lines 1018--1019
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 <chat_xss_attack_failed.png, id=971, 1405.50093pt x 642.90187pt>
 File: chat_xss_attack_failed.png Graphic file (type png)
 <use chat_xss_attack_failed.png>
-Package pdftex.def Info: chat_xss_attack_failed.png  used on input line 1003.
+Package pdftex.def Info: chat_xss_attack_failed.png  used on input line 1028.
 (pdftex.def)             Requested size: 455.24411pt x 208.23431pt.
 [35 <./chat_xss_attack_failed.png>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 [36
 
 ] [37] [38] [39] [40]
-Overfull \hbox (5.60126pt too wide) in paragraph at lines 1199--1200
+Overfull \hbox (5.60126pt too wide) in paragraph at lines 1224--1225
 \T2A/PTSerif-TLF/m/n/12 (-20) CSRF-атак с по-мо-щью middleware `django.middlewa
 re.csrf.CsrfViewMiddleware`.
  []
@@ -2215,7 +2214,7 @@ re.csrf.CsrfViewMiddleware`.
 [43
 
 ] [44] [45] [46]
-Overfull \hbox (5.96228pt too wide) in paragraph at lines 1394--1395
+Overfull \hbox (5.96228pt too wide) in paragraph at lines 1419--1420
 []\T2A/PTSerif-TLF/b/n/12 (-20) Nikto: \T2A/PTSerif-TLF/m/n/12 (-20) От-кры-тый
  ска-нер уяз-ви-мо-стей, спе-ци-а-ли-зи-ру-ю-щий-ся на веб-серверах. 
  []
@@ -2224,28 +2223,28 @@ Overfull \hbox (5.96228pt too wide) in paragraph at lines 1394--1395
 <Burp_Suite_if.png, id=1106, 1445.4pt x 783.67781pt>
 File: Burp_Suite_if.png Graphic file (type png)
 <use Burp_Suite_if.png>
-Package pdftex.def Info: Burp_Suite_if.png  used on input line 1537.
+Package pdftex.def Info: Burp_Suite_if.png  used on input line 1562.
 (pdftex.def)             Requested size: 455.24411pt x 246.82394pt.
  [52 <./Burp_Suite_if.png>]
-Overfull \hbox (2.63489pt too wide) in paragraph at lines 1575--1576
+Overfull \hbox (2.63489pt too wide) in paragraph at lines 1600--1601
 []\T2A/PTSerif-TLF/m/n/12 (-20) Страница со-дер-жит фор-му с URL-адресом дей-ст
 вия: `http://sqlcontest.uniyar.a
  []
 
 
-Overfull \hbox (23.82451pt too wide) in paragraph at lines 1579--1580
+Overfull \hbox (23.82451pt too wide) in paragraph at lines 1604--1605
 []\T2A/PTSerif-TLF/m/n/12 (-20) Для предот-вра-ще-ния ав-то-за-пол-не-ния нуж-н
 о до-ба-вить ат-ри-бут `autocomplete=off`
  []
 
 [53]
-Overfull \hbox (1.42807pt too wide) in paragraph at lines 1626--1627
+Overfull \hbox (1.42807pt too wide) in paragraph at lines 1651--1652
 []\T2A/PTSerif-TLF/m/n/12 (-20) https://cdnjs.cloudflare.com/ajax/libs/jquery-m
 ousewheel/3.1.13/jquery.mousew
  []
 
 
-Overfull \hbox (0.64809pt too wide) in paragraph at lines 1641--1642
+Overfull \hbox (0.64809pt too wide) in paragraph at lines 1666--1667
 []\T2A/PTSerif-TLF/m/n/12 (-20) Некоторые стра-ни-цы не со-дер-жат за-го-лов-ко
 в `X-Frame-Options` или `Content-
  []
@@ -2253,7 +2252,7 @@ Overfull \hbox (0.64809pt too wide) in paragraph at lines 1641--1642
 [54]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 5.
 
-Overfull \hbox (17.71504pt too wide) in paragraph at lines 1678--1678
+Overfull \hbox (17.71504pt too wide) in paragraph at lines 1703--1703
 |[]\T2A/PTSerif-TLF/b/n/14.4 (-20) Анализ кон-крет-ных слу-ча-ев уяз-ви-мо-стей
  веб-приложений| 
  []
@@ -2364,11 +2363,11 @@ Package rerunfilecheck Info: File `Р”РёРїР»РѕРј.out' has not changed.
 Here is how much of TeX's memory you used:
  32407 strings out of 474485
  585430 string characters out of 5744206
- 1953542 words of memory out of 5000000
+ 1952542 words of memory out of 5000000
  53414 multiletter control sequences out of 15000+600000
  650273 words of font info for 288 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,93p,1160b,2068s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,7n,93p,1160b,2127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF
 55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptser
 if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
@@ -2376,7 +2375,7 @@ if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
 ratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/paratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/font
 s/type1/paratype/ptmono/PTM75F.pfb>
-Output written on Р”РёРїР»РѕРј.pdf (64 pages, 868256 bytes).
+Output written on Р”РёРїР»РѕРј.pdf (64 pages, 870837 bytes).
 PDF statistics:
  1356 PDF objects out of 1440 (max. 8388607)
  402 named destinations out of 1000 (max. 500000)
