@@ -15,35 +15,6 @@
   \BibUrl{https://en.wikipedia.org/wiki/2015_TalkTalk_data_breach} (online;
   accessed: 04.05.2024).
 
-\bibitem{2020_freepik_data_breach}
-\selectlanguageifdefined{russian}
-Хакеры похитили данные 8 300 000 пользователей
-  Freepik с помощью SQL-инъекции [{Электронный
-  ресурс}]. "---
-\newblock Режим доступа:
-  \BibUrl{https://xakep.ru/2020/08/24/freepik/} ({дата обращения}:
-  04.05.2024).
-
-\bibitem{FindBugs_tool}
-\selectlanguageifdefined{english}
-FindBugs™ - Find Bugs in Java Programs [Electronic resource]. "---
-\newblock Режим доступа: \BibUrl{https://findbugs.sourceforge.net/}
-  (online; accessed: 04.05.2024).
-
-\bibitem{Yasca_tool}
-\selectlanguageifdefined{english}
-Yasca - Yet Another Source Code Analyzer [Electronic resource]. "---
-\newblock Режим доступа: \BibUrl{https://scovetta.github.io/yasca/}
-  (online; accessed: 04.05.2024).
-
-\bibitem{SonarQube_tool}
-\selectlanguageifdefined{english}
-clean code for teams and enterprises with {SonarQube} [Electronic resource].
-  "---
-\newblock Режим доступа:
-  \BibUrl{https://www.sonarsource.com/products/sonarqube/} (online; accessed:
-  04.05.2024).
-
 \bibitem{Acunetix_tool}
 \selectlanguageifdefined{english}
 Acunetix - All-in-One Web Application Security Scanner [Electronic resource].
@@ -52,39 +23,9 @@ Acunetix - All-in-One Web Application Security Scanner [Electronic resource].
   \BibUrl{https://www.acceron.net/index.php/products/acunetix} (online;
   accessed: 16.05.2024).
 
-\bibitem{Sulley_tool}
+\bibitem{Burp_Suite_tool}
 \selectlanguageifdefined{english}
-Sulley is a fuzzing engine and fuzz testing framework consisting of multiple
-  extensible components [Electronic resource]. "---
-\newblock Режим доступа: \BibUrl{https://github.com/OpenRCE/sulley}
-  (online; accessed: 16.05.2024).
-
-\bibitem{Wfuzz_tool}
-\selectlanguageifdefined{english}
-Wfuzz - The Web Fuzzer [Electronic resource]. "---
-\newblock Режим доступа: \BibUrl{https://github.com/xmendez/wfuzz}
-  (online; accessed: 16.05.2024).
-
-\bibitem{CSRF_tool}
-\selectlanguageifdefined{english}
-csrf-tester - HTML tool to test CSRF attacks on a website. [Electronic
-  resource]. "---
-\newblock Режим доступа:
-  \BibUrl{https://github.com/sergioccrr/csrf-tester} (online; accessed:
-  16.05.2024).
-
-\bibitem{ZAP_habr}
-\selectlanguageifdefined{russian}
-Обзор OWASP ZAP. Сканер для поиска уязвимостей
-  в веб-приложениях [{Электронный ресурс}].
-  "---
-\newblock Режим доступа:
-  \BibUrl{https://habr.com/ru/companies/first/articles/709586/} ({дата
-  обращения}: 04.05.2024).
-
-\bibitem{ZAP_tool}
-\selectlanguageifdefined{english}
-Zed Attack Proxy (ZAP) [Electronic resource]. "---
+Burp Suite Community Edition [Electronic resource]. "---
 \newblock Режим доступа: \BibUrl{https://www.zaproxy.org/} (online;
   accessed: 04.05.2024).
 
@@ -97,18 +38,29 @@ Burp Suite: швейцарский армейский нож для
   \BibUrl{https://habr.com/ru/articles/328382/} ({дата обращения}:
   04.05.2024).
 
-\bibitem{Burp_Suite_tool}
+\bibitem{Burp_Suite_github}
 \selectlanguageifdefined{english}
-Burp Suite Community Edition [Electronic resource]. "---
-\newblock Режим доступа: \BibUrl{https://www.zaproxy.org/} (online;
-  accessed: 04.05.2024).
-
-\bibitem{XSS_Hunter_tool}
-\selectlanguageifdefined{english}
-XSS Hunter Express [Electronic resource]. "---
+Burpsuite Professional v2024 latest [Electronic resource]. "---
 \newblock Режим доступа:
-  \BibUrl{https://github.com/mandatoryprogrammer/xsshunter-express} (online;
-  accessed: 04.05.2024).
+  \BibUrl{https://github.com/xiv3r/Burpsuite-Professional} (online; accessed:
+  21.05.2024).
+
+\bibitem{Cloudflare_anti_attack_2}
+\selectlanguageifdefined{russian}
+Cloudflare отразила рекордную DDoS-атаку
+  мощностью 26 млн запросов в секунду
+  [{Электронный ресурс}]. "---
+\newblock Режим доступа:
+  \BibUrl{https://xakep.ru/2022/06/14/26-mln-rps/} ({дата
+  обращения}: 04.05.2024).
+
+\bibitem{Fortnite_attack}
+\selectlanguageifdefined{english}
+Epic's Fortnite fail: Ancient UT2004 server used for login-stealing
+  proof-of-concept [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://www.theregister.com/2019/01/16/fortnite_security_vuln_token_theft/}
+  (online; accessed: 04.05.2024).
 
 \bibitem{Facebook_attack}
 \selectlanguageifdefined{russian}
@@ -119,13 +71,41 @@ Facebook грозит 1,5-миллиардный штраф за утечку
   \BibUrl{https://safe.cnews.ru/news/top/2018-10-01_facebook_grozit_milliardnyj_shtraf_za_utechku_dannyh}
   ({дата обращения}: 04.05.2024).
 
-\bibitem{Fortnite_attack}
+\bibitem{Github_anti_attack}
 \selectlanguageifdefined{english}
-Epic's Fortnite fail: Ancient UT2004 server used for login-stealing
-  proof-of-concept [Electronic resource]. "---
+February 28th DDoS Incident Report [Electronic resource]. "---
 \newblock Режим доступа:
-  \BibUrl{https://www.theregister.com/2019/01/16/fortnite_security_vuln_token_theft/}
+  \BibUrl{https://github.blog/2018-03-01-ddos-incident-report/} (online;
+  accessed: 04.05.2024).
+
+\bibitem{FindBugs_tool}
+\selectlanguageifdefined{english}
+FindBugs™ - Find Bugs in Java Programs [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://findbugs.sourceforge.net/}
   (online; accessed: 04.05.2024).
+
+\bibitem{Github_chat_site_project}
+\selectlanguageifdefined{english}
+Github репозиторий двухстраничного уязвимого
+  сайта-чата [Electronic resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://github.com/SeregaTheDed/Diplom_practise} (online; accessed:
+  09.05.2024).
+
+\bibitem{Shopify_anti_attack}
+\selectlanguageifdefined{english}
+Shopify Data Breach – Two Rogue Employees Stole Customer Data [Electronic
+  resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://gbhackers.com/shopify-data-breach/} (online; accessed:
+  04.05.2024).
+
+\bibitem{Sulley_tool}
+\selectlanguageifdefined{english}
+Sulley is a fuzzing engine and fuzz testing framework consisting of multiple
+  extensible components [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://github.com/OpenRCE/sulley}
+  (online; accessed: 16.05.2024).
 
 \bibitem{Twich_attack}
 \selectlanguageifdefined{english}
@@ -142,14 +122,46 @@ TikTok Careers Portal Account Takeover [Electronic resource]. "---
   \BibUrl{https://security.lauritz-holtmann.de/advisories/tiktok-account-takeover/}
   (online; accessed: 17.05.2024).
 
-\bibitem{Marriott_International_attack}
-\selectlanguageifdefined{russian}
-Крупнейшая в мире сеть отелей сообщила об
-  утечке данных 500 млн клиентов
-  [{Электронный ресурс}]. "---
+\bibitem{Wfuzz_tool}
+\selectlanguageifdefined{english}
+Wfuzz - The Web Fuzzer [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://github.com/xmendez/wfuzz}
+  (online; accessed: 16.05.2024).
+
+\bibitem{XSS_Hunter_tool}
+\selectlanguageifdefined{english}
+XSS Hunter Express [Electronic resource]. "---
 \newblock Режим доступа:
-  \BibUrl{https://www.vedomosti.ru/business/articles/2018/11/30/788043-krupneishaya-mire}
-  ({дата обращения}: 04.05.2024).
+  \BibUrl{https://github.com/mandatoryprogrammer/xsshunter-express} (online;
+  accessed: 04.05.2024).
+
+\bibitem{Yasca_tool}
+\selectlanguageifdefined{english}
+Yasca - Yet Another Source Code Analyzer [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://scovetta.github.io/yasca/}
+  (online; accessed: 04.05.2024).
+
+\bibitem{ZAP_tool}
+\selectlanguageifdefined{english}
+Zed Attack Proxy (ZAP) [Electronic resource]. "---
+\newblock Режим доступа: \BibUrl{https://www.zaproxy.org/} (online;
+  accessed: 04.05.2024).
+
+\bibitem{SonarQube_tool}
+\selectlanguageifdefined{english}
+clean code for teams and enterprises with {SonarQube} [Electronic resource].
+  "---
+\newblock Режим доступа:
+  \BibUrl{https://www.sonarsource.com/products/sonarqube/} (online; accessed:
+  04.05.2024).
+
+\bibitem{CSRF_tool}
+\selectlanguageifdefined{english}
+csrf-tester - HTML tool to test CSRF attacks on a website. [Electronic
+  resource]. "---
+\newblock Режим доступа:
+  \BibUrl{https://github.com/sergioccrr/csrf-tester} (online; accessed:
+  16.05.2024).
 
 \bibitem{SolarWinds_attack}
 \selectlanguageifdefined{russian}
@@ -160,21 +172,30 @@ TikTok Careers Portal Account Takeover [Electronic resource]. "---
   \BibUrl{https://xakep.ru/2020/12/23/solarwinds/} ({дата
   обращения}: 04.05.2024).
 
-\bibitem{OpenSSL_anti_attack}
+\bibitem{Marriott_International_attack}
 \selectlanguageifdefined{russian}
-Уязвимость Heartbleed в библиотеке OpenSSL ставит
-  SSL защиту под угрозу! [{Электронный
-  ресурс}]. "---
+Крупнейшая в мире сеть отелей сообщила об
+  утечке данных 500 млн клиентов
+  [{Электронный ресурс}]. "---
 \newblock Режим доступа:
-  \BibUrl{https://www.emaro-ssl.ru/blog/2/heartbleed/} ({дата
+  \BibUrl{https://www.vedomosti.ru/business/articles/2018/11/30/788043-krupneishaya-mire}
+  ({дата обращения}: 04.05.2024).
+
+\bibitem{ZAP_habr}
+\selectlanguageifdefined{russian}
+Обзор OWASP ZAP. Сканер для поиска уязвимостей
+  в веб-приложениях [{Электронный ресурс}].
+  "---
+\newblock Режим доступа:
+  \BibUrl{https://habr.com/ru/companies/first/articles/709586/} ({дата
   обращения}: 04.05.2024).
 
-\bibitem{Github_anti_attack}
-\selectlanguageifdefined{english}
-February 28th DDoS Incident Report [Electronic resource]. "---
-\newblock Режим доступа:
-  \BibUrl{https://github.blog/2018-03-01-ddos-incident-report/} (online;
-  accessed: 04.05.2024).
+\bibitem{Sqlcontest_site}
+\selectlanguageifdefined{russian}
+Сайт Sql-контеста для студентов ЯрГУ
+  [{Электронный ресурс}]. "---
+\newblock Режим доступа: \BibUrl{http://sqlcontest.uniyar.ac.ru/}
+  ({дата обращения}: 21.05.2024).
 
 \bibitem{Cloudflare_anti_attack_1}
 \selectlanguageifdefined{russian}
@@ -184,43 +205,22 @@ February 28th DDoS Incident Report [Electronic resource]. "---
 \newblock Режим доступа: \BibUrl{https://habr.com/ru/news/468717}
   ({дата обращения}: 04.05.2024).
 
-\bibitem{Cloudflare_anti_attack_2}
+\bibitem{OpenSSL_anti_attack}
 \selectlanguageifdefined{russian}
-Cloudflare отразила рекордную DDoS-атаку
-  мощностью 26 млн запросов в секунду
-  [{Электронный ресурс}]. "---
+Уязвимость Heartbleed в библиотеке OpenSSL ставит
+  SSL защиту под угрозу! [{Электронный
+  ресурс}]. "---
 \newblock Режим доступа:
-  \BibUrl{https://xakep.ru/2022/06/14/26-mln-rps/} ({дата
+  \BibUrl{https://www.emaro-ssl.ru/blog/2/heartbleed/} ({дата
   обращения}: 04.05.2024).
 
-\bibitem{Shopify_anti_attack}
-\selectlanguageifdefined{english}
-Shopify Data Breach – Two Rogue Employees Stole Customer Data [Electronic
-  resource]. "---
-\newblock Режим доступа:
-  \BibUrl{https://gbhackers.com/shopify-data-breach/} (online; accessed:
-  04.05.2024).
-
-\bibitem{Github_chat_site_project}
-\selectlanguageifdefined{english}
-Github репозиторий двухстраничного уязвимого
-  сайта-чата [Electronic resource]. "---
-\newblock Режим доступа:
-  \BibUrl{https://github.com/SeregaTheDed/Diplom_practise} (online; accessed:
-  09.05.2024).
-
-\bibitem{Sqlcontest_site}
+\bibitem{2020_freepik_data_breach}
 \selectlanguageifdefined{russian}
-Сайт Sql-контеста для студентов ЯрГУ
-  [{Электронный ресурс}]. "---
-\newblock Режим доступа: \BibUrl{http://sqlcontest.uniyar.ac.ru/}
-  ({дата обращения}: 21.05.2024).
-
-\bibitem{Burp_Suite_github}
-\selectlanguageifdefined{english}
-Burpsuite Professional v2024 latest [Electronic resource]. "---
+Хакеры похитили данные 8 300 000 пользователей
+  Freepik с помощью SQL-инъекции [{Электронный
+  ресурс}]. "---
 \newblock Режим доступа:
-  \BibUrl{https://github.com/xiv3r/Burpsuite-Professional} (online; accessed:
-  21.05.2024).
+  \BibUrl{https://xakep.ru/2020/08/24/freepik/} ({дата обращения}:
+  04.05.2024).
 
 \end{thebibliography}
