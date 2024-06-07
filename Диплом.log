@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  2 JUN 2024 16:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.26)  8 JUN 2024 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1948,11 +1948,31 @@ Package hyperref Info: Link coloring OFF on input line 57.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 110.
+(hyperref)                removing `math shift' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\endLarge' on input line 110.
+(hyperref)                removing `\@@underline' on input line 110.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 110.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathsurround' on input line 110.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 110.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 110.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\endlarge' on input line 110.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1963,6 +1983,28 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 2.00043pt
 (hyperref)                removed on input line 110.
 
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 110
+.
+
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 110
+.
+
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 [1
 
 {C:/Users/user/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/user/
@@ -1984,10 +2026,6 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13.4> not available
 (Font)              size <14.4> substituted on input line 4.
 
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.4> not available
 (Font)              size <14.4> substituted on input line 4.
@@ -1996,21 +2034,6 @@ LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13.4> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13.4> not available
 (Font)              size <14.4> substituted on input line 4.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
-
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
 [3
 
 ] [4] [5])
@@ -2361,11 +2384,11 @@ Package rerunfilecheck Info: File `Диплом.out' has not changed.
 (rerunfilecheck)             Checksum: 26FE52D37A7E3C13A705F2E4E2841159;41219.
  ) 
 Here is how much of TeX's memory you used:
- 32407 strings out of 474485
- 585430 string characters out of 5744206
+ 32427 strings out of 474485
+ 585801 string characters out of 5744206
  1952542 words of memory out of 5000000
- 53414 multiletter control sequences out of 15000+600000
- 650273 words of font info for 288 fonts, out of 8000000 for 9000
+ 53431 multiletter control sequences out of 15000+600000
+ 651551 words of font info for 294 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,7n,93p,1160b,2127s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype/ptserif/PTF
@@ -2375,9 +2398,9 @@ if/PTF56F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/paratype
 ratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/paratype/ptmono/PTM55F.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/font
 s/type1/paratype/ptmono/PTM75F.pfb>
-Output written on Диплом.pdf (64 pages, 870837 bytes).
+Output written on Диплом.pdf (64 pages, 870981 bytes).
 PDF statistics:
  1356 PDF objects out of 1440 (max. 8388607)
  402 named destinations out of 1000 (max. 500000)
- 45119 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 45631 words of extra memory for PDF output out of 51595 (max. 10000000)
 
